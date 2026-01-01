@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 import json
 from pathlib import Path
 
@@ -15,11 +15,13 @@ def load_questions():
 def home():
     questions = load_questions()
     categories = sorted({q["category"] for q in questions})
-    return render_template(
-        "index.html",
-        total=len(questions),
-        categories=categories
-    )
+    return render_template("index.html", total=len(questions), categories=categories)
+
+@app.route("/api/categories")
+def api_categories():
+    questions = load_questions()
+    categories = sorted({q["category"] for q in questions})
+    return jsonify(categories)
 
 if __name__ == "__main__":
     app.run(debug=True)
