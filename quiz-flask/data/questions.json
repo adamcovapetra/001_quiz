@@ -1,0 +1,663 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "informatika",
+      "difficulty": "easy",
+      "question": "K čemu slouží myš u počítače?",
+      "choices": [
+        "K ovládání kurzoru",
+        "K ukládání dat",
+        "K chlazení počítače",
+        "K připojení k internetu"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 2,
+      "category": "informatika",
+      "difficulty": "easy",
+      "question": "K čemu slouží klávesnice?",
+      "choices": [
+        "K ukládání souborů",
+        "K zadávání textu",
+        "K tisku dokumentů",
+        "K připojení k Wi-Fi"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 3,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "Co je monitor?",
+      "choices": [
+        "Paměť",
+        "Výstupní zařízení",
+        "Procesor",
+        "Vstupní zařízení"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 4,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "Co je hardware?",
+      "choices": [
+        "Programy v počítači",
+        "Internetové stránky",
+        "Fyzické části počítače",
+        "Operační systém"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 5,
+      "category": "software",
+      "difficulty": "easy",
+      "question": "Co je software?",
+      "choices": [
+        "Elektrické obvody",
+        "Fyzické součástky",
+        "Programy a aplikace",
+        "Procesor"
+      ],
+      "answerIndex": 2
+    },
+
+    {
+      "id": 6,
+      "category": "software",
+      "difficulty": "easy",
+      "question": "K čemu slouží operační systém?",
+      "choices": [
+        "K přehrávání hudby",
+        "K řízení chodu počítače",
+        "K tisku dokumentů",
+        "K psaní textu"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 7,
+      "category": "software",
+      "difficulty": "easy",
+      "question": "Který z těchto je operační systém?",
+      "choices": [
+        "Google",
+        "Windows",
+        "YouTube",
+        "Facebook"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 8,
+      "category": "internet",
+      "difficulty": "easy",
+      "question": "Co je internet?",
+      "choices": [
+        "Počítačový program",
+        "Celosvětová síť počítačů",
+        "Operační systém",
+        "Textový editor"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 9,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "K čemu slouží tiskárna?",
+      "choices": [
+        "K ukládání dat",
+        "K přehrávání zvuku",
+        "K tisku dokumentů",
+        "K zobrazování obrazu"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 10,
+      "category": "informatika",
+      "difficulty": "easy",
+      "question": "Co je soubor?",
+      "choices": [
+        "Počítačový virus",
+        "Uložená data",
+        "Internet",
+        "Klávesová zkratka"
+      ],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 11,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "Co je notebook?",
+      "choices": [
+        "Mobilní telefon",
+        "Přenosný počítač",
+        "Tablet",
+        "Stolní počítač"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 12,
+      "category": "internet",
+      "difficulty": "easy",
+      "question": "Co je e-mail?",
+      "choices": [
+        "Elektronická pošta",
+        "Internetový prohlížeč",
+        "Počítačová hra",
+        "Operační systém"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 13,
+      "category": "hardware",
+      "difficulty": "easy",
+      "question": "Které zařízení slouží k přehrávání zvuku?",
+      "choices": [
+        "Monitor",
+        "Klávesnice",
+        "Reproduktory",
+        "Myš"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 14,
+      "category": "internet",
+      "difficulty": "easy",
+      "question": "Co je webový prohlížeč?",
+      "choices": [
+        "Textový editor",
+        "Program pro prohlížení webu",
+        "Operační systém",
+        "Počítačová hra"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 15,
+      "category": "informatika",
+      "difficulty": "easy",
+      "question": "Co znamená zkratka PC?",
+      "choices": [
+        "Program Control",
+        "Personal Computer",
+        "Private Connection",
+        "Public Computer"
+      ],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 16,
+      "category": "bezpecnost",
+      "difficulty": "easy",
+      "question": "Co je heslo?",
+      "choices": [
+        "Způsob zabezpečení účtu",
+        "Název souboru",
+        "Typ programu",
+        "Internetová stránka"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 17,
+      "category": "internet",
+      "difficulty": "easy",
+      "question": "Co je Wi-Fi?",
+      "choices": [
+        "Operační systém",
+        "Druh kabelu",
+        "Bezdrátové připojení k síti",
+        "Antivirový program"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 18,
+      "category": "bezpecnost",
+      "difficulty": "easy",
+      "question": "K čemu slouží antivirový program?",
+      "choices": [
+        "K ochraně proti virům",
+        "K psaní textu",
+        "K tisku",
+        "K přehrávání videí"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 19,
+      "category": "internet",
+      "difficulty": "easy",
+      "question": "Co je URL adresa?",
+      "choices": [
+        "Adresa webové stránky",
+        "Typ souboru",
+        "Počítačový program",
+        "Počítačový virus"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 20,
+      "category": "informatika",
+      "difficulty": "easy",
+      "question": "K čemu slouží vyhledávač?",
+      "choices": [
+        "K ukládání dat",
+        "K tisku",
+        "K hledání informací na internetu",
+        "K psaní textu"
+      ],
+      "answerIndex": 2
+    },
+
+    {
+      "id": 21,
+      "category": "hardware",
+      "difficulty": "medium",
+      "question": "K čemu slouží procesor?",
+      "choices": [
+        "K výpočtům",
+        "K ukládání dat",
+        "K zobrazování obrazu",
+        "K tisku"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 22,
+      "category": "hardware",
+      "difficulty": "medium",
+      "question": "Co je paměť RAM?",
+      "choices": [
+        "Procesor",
+        "Dočasná paměť",
+        "Trvalé úložiště",
+        "Grafická karta"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 23,
+      "category": "hardware",
+      "difficulty": "medium",
+      "question": "Co je SSD?",
+      "choices": [
+        "Operační systém",
+        "Typ procesoru",
+        "Datové úložiště",
+        "Grafická karta"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 24,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Co je phishing?",
+      "choices": [
+        "Typ antiviru",
+        "Způsob podvodu na internetu",
+        "Programovací jazyk",
+        "Druh připojení"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 25,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co je cloud?",
+      "choices": [
+        "Počasí",
+        "Ukládání dat na internetu",
+        "Program",
+        "Virus"
+      ],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 26,
+      "category": "software",
+      "difficulty": "medium",
+      "question": "Co je aktualizace softwaru?",
+      "choices": [
+        "Odinstalace programu",
+        "Zlepšení nebo oprava programu",
+        "Vypnutí počítače",
+        "Mazání dat"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 27,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Co je dvoufázové ověření?",
+      "choices": [
+        "Typ viru",
+        "Zabezpečení pomocí dvou kroků",
+        "Program",
+        "Internetová stránka"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 28,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "K čemu slouží cookies?",
+      "choices": [
+        "K ukládání dat o uživateli",
+        "K ochraně počítače",
+        "K tisku",
+        "K přehrávání hudby"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 29,
+      "category": "software",
+      "difficulty": "medium",
+      "question": "Co je aplikace?",
+      "choices": [
+        "Součást hardwaru",
+        "Počítačový program",
+        "Internetový kabel",
+        "Soubor"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 30,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "K čemu slouží databáze?",
+      "choices": [
+        "K ukládání strukturovaných dat",
+        "K přehrávání videí",
+        "K tisku",
+        "K ochraně počítače"
+      ],
+      "answerIndex": 0
+    },
+
+    {
+      "id": 31,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je algoritmus?",
+      "choices": [
+        "Program",
+        "Postup řešení problému",
+        "Hardware",
+        "Internetová služba"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 32,
+      "category": "software",
+      "difficulty": "medium",
+      "question": "Co je open-source software?",
+      "choices": [
+        "Placený software",
+        "Software s otevřeným zdrojovým kódem",
+        "Virus",
+        "Operační systém"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 33,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co znamená zkratka HTTP?",
+      "choices": [
+        "HyperText Transfer Protocol",
+        "High Transfer Text Program",
+        "Host Transfer Tool",
+        "Hyper Terminal Tool"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 34,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Co je firewall?",
+      "choices": [
+        "Antivirový program",
+        "Ochrana sítě",
+        "Internetový prohlížeč",
+        "Operační systém"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 35,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je zdrojový kód?",
+      "choices": [
+        "Výsledný program",
+        "Text programu napsaný programátorem",
+        "Hardware",
+        "Databáze"
+      ],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 36,
+      "category": "software",
+      "difficulty": "medium",
+      "question": "Co je bug?",
+      "choices": [
+        "Nová funkce",
+        "Chyba v programu",
+        "Aktualizace",
+        "Antivirus"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 37,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co je sociální síť?",
+      "choices": [
+        "Operační systém",
+        "Web pro komunikaci lidí",
+        "Databáze",
+        "Antivirový program"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 38,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Co je malware?",
+      "choices": [
+        "Škodlivý software",
+        "Typ hardwaru",
+        "Programovací jazyk",
+        "Webová stránka"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 39,
+      "category": "hardware",
+      "difficulty": "medium",
+      "question": "Co je základní deska?",
+      "choices": [
+        "Paměť",
+        "Hlavní deska spojující komponenty",
+        "Procesor",
+        "Zdroj"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 40,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je bit?",
+      "choices": [
+        "Základní jednotka informace",
+        "Soubor",
+        "Program",
+        "Hardware"
+      ],
+      "answerIndex": 0
+    },
+
+    {
+      "id": 41,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je bajt?",
+      "choices": [
+        "1 bit",
+        "8 bitů",
+        "16 bitů",
+        "64 bitů"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 42,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co je doména?",
+      "choices": [
+        "Adresa webu",
+        "Program",
+        "Databáze",
+        "Operační systém"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 43,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Proč jsou aktualizace důležité?",
+      "choices": [
+        "Zpomaluji počítač",
+        "Opravují chyby a bezpečnost",
+        "Mažou data",
+        "Vypínají programy"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 44,
+      "category": "software",
+      "difficulty": "medium",
+      "question": "Co je textový editor?",
+      "choices": [
+        "Program pro psaní textu",
+        "Internetový prohlížeč",
+        "Antivirus",
+        "Hra"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 45,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co je online služba?",
+      "choices": [
+        "Program bez internetu",
+        "Služba dostupná přes internet",
+        "Hardware",
+        "Operační systém"
+      ],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 46,
+      "category": "hardware",
+      "difficulty": "medium",
+      "question": "K čemu slouží grafická karta?",
+      "choices": [
+        "K výpočtům",
+        "K ukládání dat",
+        "K zobrazování grafiky",
+        "K připojení k internetu"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 47,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je operační paměť?",
+      "choices": [
+        "RAM",
+        "Disk",
+        "Procesor",
+        "Zdroj"
+      ],
+      "answerIndex": 0
+    },
+    {
+      "id": 48,
+      "category": "bezpecnost",
+      "difficulty": "medium",
+      "question": "Co znamená silné heslo?",
+      "choices": [
+        "Krátké heslo",
+        "Snadno zapamatovatelné",
+        "Kombinace znaků, čísel a písmen",
+        "Jméno uživatele"
+      ],
+      "answerIndex": 2
+    },
+    {
+      "id": 49,
+      "category": "internet",
+      "difficulty": "medium",
+      "question": "Co je streaming?",
+      "choices": [
+        "Stahování souborů",
+        "Přehrávání obsahu online",
+        "Ukládání dat",
+        "Tisk"
+      ],
+      "answerIndex": 1
+    },
+    {
+      "id": 50,
+      "category": "informatika",
+      "difficulty": "medium",
+      "question": "Co je digitální stopa?",
+      "choices": [
+        "Hardwarová součást",
+        "Záznam o aktivitě na internetu",
+        "Program",
+        "Virus"
+      ],
+      "answerIndex": 1
+    }
+  ]
+}

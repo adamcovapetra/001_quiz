@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <title>Quiz Flask</title>
+</head>
+<body>
+  <h1>Quiz Flask</h1>
+
+  <p>Počet otázek v databázi: <strong>{{ total }}</strong></p>
+
+  <h2>Kategorie</h2>
+  <ul>
+    {% for c in categories %}
+      <li>{{ c }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
