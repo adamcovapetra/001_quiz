@@ -23,5 +23,33 @@ def api_categories():
     categories = sorted({q["category"] for q in questions})
     return jsonify(categories)
 
+from flask import Flask, render_template, jsonify, request
+import json
+import random
+from pathlib import Path
+
+@app.route("/api/question")
+def api_question():
+    category = request.args.get("category")
+    if not category:
+        return jsonify({"error": "Missing category"}), 400
+
+    questions = load_questions()
+    candidates = [q for q in questions if q["category"] == category]
+
+    if not candidates:
+        return jsonify({"error": "No questions for this category"}), 404
+
+    q = random.choice(candidates)
+
+    # NEPOSÍLÁME answerIndex, aby si to hráč neokoukal
+    return jsonify({
+        "id": q["id"],
+        "category": q["category"],
+        "difficulty": q["difficulty"],
+        "question": q["question"],
+        "choices": q["choices"]
+    })
+
 if __name__ == "__main__":
     app.run(debug=True)
