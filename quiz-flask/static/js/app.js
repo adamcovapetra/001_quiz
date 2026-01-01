@@ -6,7 +6,16 @@ const elQuestion = document.getElementById("question");
 const elChoices = document.getElementById("choices");
 const elError = document.getElementById("error");
 
+const elScore = document.getElementById("score");
+const elCount = document.getElementById("count");
+
 let currentQuestionId = null;
+let score = 0;
+let count = 0;
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 async function loadQuestion() {
   elError.textContent = "";
@@ -54,12 +63,30 @@ async function submitAnswer(index, button) {
 
   const data = await res.json();
 
+  // počítadlo otázek
+  count += 1;
+  elCount.textContent = String(count);
+
   if (data.correct) {
+    score += 1;
+    elScore.textContent = String(score);
     button.classList.add("correct");
   } else {
     button.classList.add("wrong");
     elChoices.children[data.correctIndex].classList.add("correct");
   }
+
+ // pauza – delší při špatné odpovědi
+const pauseMs = data.correct ? 1200 : 3000;
+await sleep(pauseMs);
+await loadQuestion();
 }
 
-elLoad.addEventListener("click", loadQuestion);
+elLoad.addEventListener("click", async () => {
+  // restart hry při kliknutí na "Načíst otázku"
+  score = 0;
+  count = 0;
+  elScore.textContent = "0";
+  elCount.textContent = "0";
+  await loadQuestion();
+});
