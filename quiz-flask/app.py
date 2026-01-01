@@ -51,5 +51,27 @@ def api_question():
         "choices": q["choices"]
     })
 
+@app.route("/api/answer", methods=["POST"])
+def api_answer():
+    data = request.json
+    qid = data.get("id")
+    selected = data.get("answerIndex")
+
+    if qid is None or selected is None:
+        return jsonify({"error": "Missing data"}), 400
+
+    questions = load_questions()
+    q = next((x for x in questions if x["id"] == qid), None)
+
+    if not q:
+        return jsonify({"error": "Question not found"}), 404
+
+    correct = (selected == q["answerIndex"])
+
+    return jsonify({
+        "correct": correct,
+        "correctIndex": q["answerIndex"]
+    })
+
 if __name__ == "__main__":
     app.run(debug=True)

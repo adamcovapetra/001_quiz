@@ -2,18 +2,36 @@
 <html lang="cs">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quiz Flask</title>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-  <h1>Quiz Flask</h1>
+  <main class="wrap">
+    <h1>Quiz Flask</h1>
 
-  <p>Počet otázek v databázi: <strong>{{ total }}</strong></p>
+    <section class="card">
+      <div class="row">
+        <label for="category">Kategorie:</label>
+        <select id="category">
+          {% for c in categories %}
+            <option value="{{ c }}">{{ c }}</option>
+          {% endfor %}
+        </select>
+        <button id="load">Načíst otázku</button>
+      </div>
 
-  <h2>Kategorie</h2>
-  <ul>
-    {% for c in categories %}
-      <li>{{ c }}</li>
-    {% endfor %}
-  </ul>
+      <div id="quiz" class="quiz hidden">
+        <p class="meta" id="meta"></p>
+        <h2 class="question" id="question"></h2>
+        <div class="choices" id="choices"></div>
+      </div>
+
+      <p id="error" class="error"></p>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
