@@ -11,19 +11,20 @@ const elCount = document.getElementById("count");
 const elFinish = document.getElementById("finish");
 const elFinalScore = document.getElementById("finalScore");
 const elRestart = document.getElementById("restart");
+const elLimit = document.getElementById("limit");
 
 let currentQuestionId = null;
 let score = 0;
 let count = 0;
 
-const TOTAL_QUESTIONS = 10;
+let totalQuestions = 10;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 function showFinish() {
-  elFinalScore.textContent = `${score}/${TOTAL_QUESTIONS}`;
+  elFinalScore.textContent = `${score}/${totalQuestions}`;
   elQuiz.classList.add("hidden");
   elFinish.classList.remove("hidden");
 }
@@ -76,7 +77,7 @@ async function submitAnswer(index, button) {
 
   // počítadlo otázek
   count += 1;
- if (count >= TOTAL_QUESTIONS) {
+ if (count >= totalQuestions) {
   showFinish();
   return;
 }
@@ -99,6 +100,9 @@ await loadQuestion();
 
 elLoad.addEventListener("click", async () => {
   // restart hry při kliknutí na "Načíst otázku"
+  totalQuestions = Number(elLimit.value);
+  if (!Number.isFinite(totalQuestions) || totalQuestions < 1) totalQuestions = 10;
+
   score = 0;
   count = 0;
   elScore.textContent = "0";

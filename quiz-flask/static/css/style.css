@@ -85,3 +85,12 @@ button:hover { background: rgba(255,255,255,.14); }
   border-top: 1px solid rgba(255,255,255,.12);
 }
 
+input {
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,.18);
+  padding: 10px 12px;
+  font-size: 14px;
+  background: rgba(255,255,255,.08);
+  color: #e7eefc;
+  width: 90px;
+}
