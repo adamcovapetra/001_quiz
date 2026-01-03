@@ -805,6 +805,807 @@
       "question": "Bod vyrovnání firmy v dlouhém období nastává v:",
       "choices": ["Maximu průměrných nákladů", "Minimu dlouhodobých průměrných nákladů (LAC)", "Bodě, kde MR = 0", "Průsečíku poptávky s osou x"],
       "answerIndex": 1
-    }
+    },
+    {
+    "id": 101,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jaká je přibližná rozloha afrického kontinentu?",
+    "choices": ["10 300 000 km²", "20 300 000 km²", "30 300 000 km²", "40 300 000 km²"],
+    "answerIndex": 2
+    },
+    {
+      "id": 102,
+      "category": "Afrika",
+      "difficulty": "easy",
+      "question": "Který kontinent je jako jediný větší než Afrika (pokud nepočítáme Ameriku jako celek)?",
+      "choices": ["Asie", "Evropa", "Austrálie", "Antarktida"],
+      "answerIndex": 0
+    },
+    {
+      "id": 103,
+      "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje nejvyšší bod Afriky?",
+    "choices": ["Mount Kenya", "Ras Dašan", "Uhuru (Kilimandžáro)", "Pico de Teide"],
+    "answerIndex": 2
+  },
+  {
+    "id": 104,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která poušť je největší v Africe?",
+    "choices": ["Namib", "Kalahari", "Sahara", "Ogaden"],
+    "answerIndex": 2
+  },
+  {
+    "id": 105,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která řeka je považována za nejdelší v Africe?",
+    "choices": ["Nil", "Kongo", "Niger", "Zambezi"],
+    "answerIndex": 0
+  },
+  {
+    "id": 106,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který ostrov je největším ostrovem Afriky?",
+    "choices": ["Mauricius", "Seychely", "Madagaskar", "Sokotra"],
+    "answerIndex": 2
+  },
+  {
+    "id": 107,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který průliv odděluje Afriku od Evropy?",
+    "choices": ["Mosambický průliv", "Průliv Bāb al Mandab", "Gibraltarský průliv", "Suezský průplav"],
+    "answerIndex": 2
+  },
+  {
+    "id": 108,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje nejníže položené místo v Africe?",
+    "choices": ["Čadská pánev", "Assalská proláklina", "Konžská pánev", "Danakilská proláklina"],
+    "answerIndex": 1
+  },
+  {
+    "id": 109,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který oceán omývá Afriku na západě?",
+    "choices": ["Indický", "Atlantický", "Severní ledový", "Tichý"],
+    "answerIndex": 1
+  },
+  {
+    "id": 110,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Afrika tvoří přibližně kolik procent zemské souše?",
+    "choices": ["10,3 %", "20,3 %", "30,3 %", "40,3 %"],
+    "answerIndex": 1
+  },
+  {
+    "id": 111,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát je nejvýchodnějším bodem pevninské Afriky?",
+    "choices": ["Etiopie", "Keňa", "Somálsko", "Egypt"],
+    "answerIndex": 2
+  },
+  {
+    "id": 112,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která čára prochází Afrikou a rozděluje ji na severní a jižní část?",
+    "choices": ["Rovník", "Nultý poledník", "Obratník Raka", "Obratník Kozoroha"],
+    "answerIndex": 0
+  },
+  {
+    "id": 113,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Kolik časových pásem zasahuje do pevninské Afriky?",
+    "choices": ["Dvě", "Tři", "Čtyři", "Pět"],
+    "answerIndex": 2
+  },
+  {
+    "id": 114,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který záliv je největším zálivem zasahujícím do afrického pobřeží?",
+    "choices": ["Guinejský záliv", "Adenský záliv", "Záliv Velká Syrta", "Bizertský záliv"],
+    "answerIndex": 0
+  },
+  {
+    "id": 115,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje nejjižnější bod africké pevniny?",
+    "choices": ["Bílý mys", "Zelený mys", "Střelkový mys (Cape Agulhas)", "Mys Guardafui"],
+    "answerIndex": 2
+  },
+  {
+    "id": 116,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která řeka má největší povodí a nejvíce vody v Africe?",
+    "choices": ["Nil", "Kongo", "Niger", "Zambezi"],
+    "answerIndex": 1
+  },
+  {
+    "id": 117,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které jezero je plošně největší v Africe?",
+    "choices": ["Viktoriino jezero (Ukerewe)", "Tanganika", "Malawi", "Čadské jezero"],
+    "answerIndex": 0
+  },
+  {
+    "id": 118,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje pásmo savan mezi Saharou a tropickými lesy?",
+    "choices": ["Maghreb", "Sahel", "Kalahari", "Karoo"],
+    "answerIndex": 1
+  },
+  {
+    "id": 119,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které náboženství převažuje v severní (arabské) Africe?",
+    "choices": ["Islám", "Křesťanství", "Hinduismus", "Animismus"],
+    "answerIndex": 0
+  },
+  {
+    "id": 120,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje největší africký slum, nacházející se v Nairobi?",
+    "choices": ["Soweto", "Khayelitsha", "Kibera", "Ajegunle"],
+    "answerIndex": 2
+  },
+  {
+    "id": 121,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát je populačně největším v Africe (dle odhadu z roku 2012)?",
+    "choices": ["Egypt", "Etiopie", "Jihoafrická republika", "Nigérie"],
+    "answerIndex": 3
+  },
+  {
+    "id": 122,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který strom je symbolem afrických savan s typickým „tlustým kmenem“?",
+    "choices": ["Akácie", "Baobab", "Palma datlová", "Cedr"],
+    "answerIndex": 1
+  },
+  {
+    "id": 123,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které zvíře patří mezi typické zástupce fauny savan?",
+    "choices": ["Žirafa", "Lední medvěd", "Tygr", "Klokan"],
+    "answerIndex": 0
+  },
+  {
+    "id": 124,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jaký je hlavní cíl zahraniční rozvojové spolupráce?",
+    "choices": ["Dobývání vesmíru", "Odstranění chudoby", "Zvýšení těžby ropy", "Výstavba mrakodrapů"],
+    "answerIndex": 1
+  },
+  {
+    "id": 125,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jaká je přibližná populace Afriky (údaj pro rok 2012)?",
+    "choices": ["500 milionů", "Přes 1 miliardu", "2 miliardy", "3 miliardy"],
+    "answerIndex": 1
+  },
+  {
+    "id": 126,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který sektor hospodářství zaměstnává v mnoha afrických zemích přes 80 % lidí?",
+    "choices": ["Zemědělství", "Průmysl", "Služby", "IT technologie"],
+    "answerIndex": 0
+  },
+  {
+    "id": 127,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který nerost se těží v oblasti „Copperbelt“?",
+    "choices": ["Zlato", "Ropa", "Měď", "Uhlí"],
+    "answerIndex": 2
+  },
+  {
+    "id": 128,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje mezinárodní organizace sdružující téměř všechny africké státy?",
+    "choices": ["Evropská unie", "Africká unie", "Arabská liga", "ASEAN"],
+    "answerIndex": 1
+  },
+  {
+    "id": 129,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát je v Africe největším vývozcem platiny?",
+    "choices": ["Nigérie", "Egypt", "Jihoafrická republika", "Alžírsko"],
+    "answerIndex": 2
+  },
+  {
+    "id": 130,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Co je to „vádí“?",
+    "choices": ["Typ afrického jídla", "Občasný vodní tok v poušti", "Druh savany", "Africké město"],
+    "answerIndex": 1
+  },
+  {
+    "id": 131,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát v Africe má nejvíce rozvinutou silniční a železniční síť?",
+    "choices": ["Čad", "Jihoafrická republika", "Mali", "Niger"],
+    "answerIndex": 1
+  },
+  {
+    "id": 132,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které město je hlavním městem Egypta?",
+    "choices": ["Káhira", "Alexandrie", "Lagos", "Nairobi"],
+    "answerIndex": 0
+  },
+  {
+    "id": 133,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát je nejmenším státem Afriky podle počtu obyvatel?",
+    "choices": ["Nigérie", "Seychely", "Egypt", "Etiopie"],
+    "answerIndex": 1
+  },
+  {
+    "id": 134,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se nazývá proces kácení lesů pro získání půdy?",
+    "choices": ["Erodování", "Deforestace", "Urbanizace", "Peneplenizace"],
+    "answerIndex": 1
+  },
+  {
+    "id": 135,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje nejdelší řeka v jižní Africe?",
+    "choices": ["Nil", "Kongo", "Zambezi", "Niger"],
+    "answerIndex": 2
+  },
+  {
+    "id": 136,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát je nejzápadnějším bodem africké pevniny?",
+    "choices": ["Senegal", "Maroko", "Angola", "Somálsko"],
+    "answerIndex": 0
+  },
+  {
+    "id": 137,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která země je známá pěstováním kávy (její pravlast)?",
+    "choices": ["Libye", "Etiopie", "Namibie", "Botswana"],
+    "answerIndex": 1
+  },
+  {
+    "id": 138,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který zvířecí druh je typický pro Madagaskar?",
+    "choices": ["Lemur", "Slon", "Lev", "Zebra"],
+    "answerIndex": 0
+  },
+  {
+    "id": 139,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Co je to „apartheid“ (v kontextu historie JAR)?",
+    "choices": ["Typ zemědělství", "Systém rasové segregace", "Náboženský obřad", "Druh tance"],
+    "answerIndex": 1
+  },
+  {
+    "id": 140,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Která plodina je hlavní exportní komoditou Etiopie?",
+    "choices": ["Ropa", "Diamanty", "Káva", "Měď"],
+    "answerIndex": 2
+  },
+  {
+    "id": 141,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které moře omývá Afriku na severu?",
+    "choices": ["Středozemní", "Rudé", "Karibské", "Černé"],
+    "answerIndex": 0
+  },
+  {
+    "id": 142,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát sousedí se Sinajským poloostrovem?",
+    "choices": ["Tunisko", "Egypt", "Maroko", "Alžírsko"],
+    "answerIndex": 1
+  },
+  {
+    "id": 143,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Co se těží v Libyi a Alžírsku jako hlavní zdroj příjmů?",
+    "choices": ["Ropa a zemní plyn", "Zlato", "Káva", "Bavlna"],
+    "answerIndex": 0
+  },
+  {
+    "id": 144,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje slavný cestovatel, který objevil Viktoriiny vodopády?",
+    "choices": ["Marco Polo", "David Livingstone", "Kryštof Kolumbus", "Vasco da Gama"],
+    "answerIndex": 1
+  },
+  {
+    "id": 145,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který africký stát je známý výrobou vína a pěstováním ovoce na jihu?",
+    "choices": ["Jihoafrická republika", "Čad", "Niger", "Súdán"],
+    "answerIndex": 0
+  },
+  {
+    "id": 146,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Kolik zemí tvoří v současnosti Africkou unii (téměř všechny kromě jedné)?",
+    "choices": ["10", "25", "40", "Přes 50 (všechny kromě Maroka)"],
+    "answerIndex": 3
+  },
+  {
+    "id": 147,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Který stát v Africe je známý jako největší producent kakaa na světě?",
+    "choices": ["Egypt", "Pobřeží Slonoviny", "JAR", "Libye"],
+    "answerIndex": 1
+  },
+  {
+    "id": 148,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Jak se jmenuje nejhlubší jezero v Africe?",
+    "choices": ["Viktoriino", "Tanganika", "Čadské", "Tana"],
+    "answerIndex": 1
+  },
+  {
+    "id": 149,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Které město je největší aglomerací v Africe?",
+    "choices": ["Káhira", "Praha", "Kapské Město", "Luanda"],
+    "answerIndex": 0
+  },
+  {
+    "id": 150,
+    "category": "Afrika",
+    "difficulty": "easy",
+    "question": "Co je to „animismus“?",
+    "choices": ["Těžba zvířat", "Víra v oduševnělost přírody", "Typ africké dopravy", "Politická strana"],
+    "answerIndex": 1
+  },
+
+  {
+    "id": 151,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jaká je matematická hodnota nejsevernějšího bodu Afriky (Rass Ben Sekka)?",
+    "choices": ["34˚51´ j. š.", "37˚21´ s. š.", "17˚31´ z. d.", "51˚27´ v. d."],
+    "answerIndex": 1
+  },
+  {
+    "id": 152,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ hornin buduje převážnou část starého afrického štítu?",
+    "choices": ["Prekambrické horniny (rula, břidlice)", "Druhohorní vápence", "Třetihorní pískovce", "Čtvrtohorní sedimenty"],
+    "answerIndex": 0
+  },
+  {
+    "id": 153,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co jsou to „tillity“ v kontextu africké geologie?",
+    "choices": ["Typ sopečného popela", "Zpevněné morénové sedimenty zalednění", "Písčité duny", "Druh krystalické břidlice"],
+    "answerIndex": 1
+  },
+  {
+    "id": 154,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který proces vedl k vytvoření paroviny v Africe?",
+    "choices": ["Subdukce", "Peneplenizace", "Transgrese", "Regrese"],
+    "answerIndex": 1
+  },
+  {
+    "id": 155,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jaká je průměrná nadmořská výška afrického kontinentu?",
+    "choices": ["350 m n. m.", "550 m n. m.", "750 m n. m.", "950 m n. m."],
+    "answerIndex": 2
+  },
+  {
+    "id": 156,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která sopka v Africe měla poslední zaznamenanou erupci v roce 2002?",
+    "choices": ["Meru", "Pico de Teide", "Nyiragongo", "Kilimandžáro"],
+    "answerIndex": 2
+  },
+  {
+    "id": 157,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která oblast je označována jako „Nízká Afrika“?",
+    "choices": ["Severní a západní část kontinentu", "Jižní a východní část kontinentu", "Pouze ostrovní část", "Pobřeží Indického oceánu"],
+    "answerIndex": 0
+  },
+  {
+    "id": 158,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co způsobuje tzv. anemoorografický (návětrný) efekt na Madagaskaru?",
+    "choices": ["Nedostatek srážek na východě", "Bohaté srážky na východě a srážkový stín na jihozápadě", "Pravidelné sněžení v nížinách", "Vznik pouště na severu ostrova"],
+    "answerIndex": 1
+  },
+  {
+    "id": 159,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který mořský proud způsobuje extrémní sucho v poušti Namib?",
+    "choices": ["Benguelský proud", "Guinejský proud", "Kanárský proud", "Monzunový proud"],
+    "answerIndex": 0
+  },
+  {
+    "id": 160,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jaká je hodnota nejvyšší absolutní teploty naměřené v Africe (Al Azīzīyah)?",
+    "choices": ["45,8 ˚C", "50,8 ˚C", "57,8 ˚C", "62,8 ˚C"],
+    "answerIndex": 2
+  },
+  {
+    "id": 161,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se nazývá pásmo nízkého tlaku v oblasti rovníku, které ovlivňuje srážky?",
+    "choices": ["Pasátová zóna", "Intertropická zóna konvergence (ITCZ)", "Polární fronta", "Anticyklóna"],
+    "answerIndex": 1
+  },
+  {
+    "id": 162,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ podnebí je dle Köppenovy klasifikace označen kódem „Af“?",
+    "choices": ["Tropické pralesní podnebí", "Savanové podnebí", "Stepní podnebí", "Horské klima"],
+    "answerIndex": 0
+  },
+  {
+    "id": 163,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jaký podíl území Afriky představují bezodtoké oblasti?",
+    "choices": ["11 %", "21 %", "31 %", "41 %"],
+    "answerIndex": 2
+  },
+  {
+    "id": 164,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která řeka v Africe má kombinovaný režim odtoku?",
+    "choices": ["Kongo", "Niger", "Ubangi", "Šari"],
+    "answerIndex": 1
+  },
+  {
+    "id": 165,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která přehrada v Africe má největší objem vody (180,6 km³)?",
+    "choices": ["Kariba", "Asuán II", "Akosombo", "Cahora Bassa"],
+    "answerIndex": 0
+  },
+  {
+    "id": 166,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "U kterého jezera došlo v roce 1986 k náhlému uvolnění mraku oxidu uhličitého?",
+    "choices": ["Tanganika", "Nyos", "Kivu", "Tana"],
+    "answerIndex": 1
+  },
+  {
+    "id": 167,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se nazývá proces výdeje vody rostlinami a půdou?",
+    "choices": ["Kondenzace", "Evapotranspirace", "Infiltrace", "Sublimace"],
+    "answerIndex": 1
+  },
+  {
+    "id": 168,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ půdy je nejrozšířenější v tropických deštných lesích (červenožluté)?",
+    "choices": ["Ferralsols", "Calcisols", "Vertisols", "Solonchaks"],
+    "answerIndex": 0
+  },
+  {
+    "id": 169,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která oblast Afriky je nejmenší fytogeografickou oblastí s vysokým podílem endemitů?",
+    "choices": ["Holarktická", "Paleotropická", "Kapská", "Madagaskarská"],
+    "answerIndex": 2
+  },
+  {
+    "id": 170,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co vyjadřuje „fyziologická hustota zalidnění“?",
+    "choices": ["Počet obyvatel na km² celkové plochy", "Počet obyvatel na jednotku zemědělské půdy", "Počet dětí v rodině", "Hustotu obyvatel ve městech"],
+    "answerIndex": 1
+  },
+  {
+    "id": 171,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která etnická skupina tvoří dominantní složku populace Madagaskaru?",
+    "choices": ["Arabové", "Zuluové", "Malgaši", "Pygmejové"],
+    "answerIndex": 2
+  },
+  {
+    "id": 172,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se nazývá soužití jednoho muže s více ženami, běžné v částech Afriky?",
+    "choices": ["Polyandrie", "Polygynie", "Monogamie", "Celibát"],
+    "answerIndex": 1
+  },
+  {
+    "id": 173,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co je to „brain drain“?",
+    "choices": ["Typ africké nemoci", "Odliv vzdělaných a kvalifikovaných lidí do zahraničí", "Vzdělávací program OSN", "Růst gramotnosti"],
+    "answerIndex": 1
+  },
+  {
+    "id": 174,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který stát má podle textu nejvyšší míru gramotnosti (přes 90 %)?",
+    "choices": ["Rovníková Guinea", "Niger", "Burkina Faso", "Mali"],
+    "answerIndex": 0
+  },
+  {
+    "id": 175,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co označuje termín „primate city“?",
+    "choices": ["Město v pralese, kde žijí opice", "Dominantní město, které je mnohonásobně větší než ostatní v zemi", "Hlavní město s historickými hradbami", "Město s nejnižší kriminalitou"],
+    "answerIndex": 1
+  },
+  {
+    "id": 176,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který stát je podle textu nejméně urbanizovaný (podíl městského obyv. cca 5 %)?",
+    "choices": ["Libye", "Egypt", "Rwanda", "Nigérie"],
+    "answerIndex": 2
+  },
+  {
+    "id": 177,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se jmenuje legislativní dokument ČR pro rozvojovou pomoc na období 2010–2017?",
+    "choices": ["Zákon o míru", "Koncepce zahraniční rozvojové spolupráce ČR", "Akta X", "Africký protokol"],
+    "answerIndex": 1
+  },
+  {
+    "id": 178,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která africká země je pro ČR jedinou „programovou zemí“ (nejvyšší priorita)?",
+    "choices": ["Angola", "Zambie", "Etiopie", "Nigérie"],
+    "answerIndex": 2
+  },
+  {
+    "id": 179,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který panovník je považován za zakladatele moderní Etiopie?",
+    "choices": ["Haile Selassie", "Menelik II.", "Jonas Savimbi", "Kenneth Kaunda"],
+    "answerIndex": 1
+  },
+  {
+    "id": 180,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co je to „Remittance“ v kontextu migrace?",
+    "choices": ["Druh cestovního pasu", "Finance zasílané migranty do jejich původních domovů", "Povolení k pobytu", "Typ uprchlického tábora"],
+    "answerIndex": 1
+  },
+  {
+    "id": 181,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která exkláva Angoly je bohatá na ropu a usiluje o nezávislost?",
+    "choices": ["Bié", "Cabinda", "Moxico", "Luanda"],
+    "answerIndex": 1
+  },
+  {
+    "id": 182,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která organizace reguluje objem produkce a ceny ropy (Angola je členem)?",
+    "choices": ["UNESCO", "OPEC", "NATO", "WTO"],
+    "answerIndex": 1
+  },
+  {
+    "id": 183,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se nazývá velká vodní nádrž budovaná v Etiopii na Modrém Nilu?",
+    "choices": ["Grand Renaissance Dam", "Inga", "Kariba", "Owen Falls"],
+    "answerIndex": 0
+  },
+  {
+    "id": 184,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "V které provincii Zambie je soustředěna většina českých rozvojových projektů?",
+    "choices": ["Copperbelt", "Lusaka", "Západní provincie", "Severní provincie"],
+    "answerIndex": 2
+  },
+  {
+    "id": 185,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co označuje zkratka LDCs (Least Developed Countries)?",
+    "choices": ["Země s největší těžbou diamantů", "Nejméně rozvinuté země světa", "Země s nejnižší úmrtností", "Africké ropné velmoci"],
+    "answerIndex": 1
+  },
+  {
+    "id": 186,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která země v Africe těží 92 % veškerého afrického uhlí?",
+    "choices": ["Nigérie", "Egypt", "Jihoafrická republika", "Alžírsko"],
+    "answerIndex": 2
+  },
+  {
+    "id": 187,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který kov je přezdíván jako „bílé zlato“ (JAR má 77 % světového exportu)?",
+    "choices": ["Chromit", "Platina", "Uran", "Koltan"],
+    "answerIndex": 1
+  },
+  {
+    "id": 188,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jak se jmenovala organizace, která předcházela Africké unii?",
+    "choices": ["Africké hospodářské společenství", "Organizace africké jednoty (OAJ)", "Panafrický kongres", "Liga národů"],
+    "answerIndex": 1
+  },
+  {
+    "id": 189,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který stát bojkotuje Africkou unii kvůli členství Západní Sahary?",
+    "choices": ["Alžírsko", "Egypt", "Maroko", "Libye"],
+    "answerIndex": 2
+  },
+  {
+    "id": 190,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který americký sociolog byl hlavním proponentem panafrického hnutí?",
+    "choices": ["William Du Bois", "Jonas Savimbi", "Menelik II.", "David Livingstone"],
+    "answerIndex": 0
+  },
+  {
+    "id": 191,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co je to „Fair trade“?",
+    "choices": ["Typ afrického tržiště", "Tržní přístup zajišťující producentům lepší podmínky", "Obchod s otroky", "Název africké měny"],
+    "answerIndex": 1
+  },
+  {
+    "id": 192,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která oblast Afriky je považována za „kolébku lidstva“?",
+    "choices": ["Západní Afrika", "Severní Afrika", "Východní Afrika", "Jižní Afrika"],
+    "answerIndex": 2
+  },
+  {
+    "id": 193,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ měst vznikal v kolonizované Africe jako replika evropských sídel?",
+    "choices": ["Muslimské město", "Domorodé město", "Evropské město", "Hybridní město"],
+    "answerIndex": 2
+  },
+  {
+    "id": 194,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co znamená v překladu název vodopádů „Mosi-oa-Tunya“?",
+    "choices": ["Velká voda", "Hřmící kouř", "Zlatá řeka", "Krásný pohled"],
+    "answerIndex": 1
+  },
+  {
+    "id": 195,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Jaký je hlavní důvod politické nestability v deltě Nigeru?",
+    "choices": ["Nedostatek jídla", "Neschopnost vlády redistribuovat zisky z ropy a znečištění", "Náboženský spor o vodu", "Invaze sousedního státu"],
+    "answerIndex": 1
+  },
+  {
+    "id": 196,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ jezera je jezero Tana v Etiopii?",
+    "choices": ["Tektonické", "Reliktní", "Hrazené lávovými proudy", "V meteorickém kráteru"],
+    "answerIndex": 2
+  },
+  {
+    "id": 197,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Co je to „fynbos“?",
+    "choices": ["Africký pokrm", "Křovinatá formace v Kapské oblasti", "Typ slaného jezera", "Etnická skupina"],
+    "answerIndex": 1
+  },
+  {
+    "id": 198,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který stát v Africe má nejnižší hrubou míru úmrtnosti (3,4 ‰)?",
+    "choices": ["Angola", "Libye", "Zambie", "Mosambik"],
+    "answerIndex": 1
+  },
+  {
+    "id": 199,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Která mezinárodní iniciativa definovala 8 rozvojových cílů v roce 2000?",
+    "choices": ["Rozvojové cíle tisíciletí (MDGs)", "Akční plán z Lagosu", "Syrtská deklarace", "Konference v Berlíně"],
+    "answerIndex": 0
+  },
+  {
+    "id": 200,
+    "category": "Afrika",
+    "difficulty": "medium",
+    "question": "Který typ sídel v Africe stále převažuje (žije v nich cca 60 % obyv.)?",
+    "choices": ["Velkoměsta", "Slumy", "Vesnická sídla", "Oázy"],
+    "answerIndex": 2
+  }
   ]
 }
