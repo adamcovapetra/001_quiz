@@ -18,6 +18,7 @@ let score = 0;
 let count = 0;
 let totalQuestions = 10;
 let selectedDifficulty = "easy";
+let usedIds = [];
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -34,9 +35,10 @@ async function loadQuestion() {
   elQuiz.classList.add("hidden");
 
   const category = elCategory.value;
+  const exclude = usedIds.join(",");
 
 const res = await fetch(
-  `/api/question?category=${encodeURIComponent(category)}&difficulty=${encodeURIComponent(selectedDifficulty)}`
+  `/api/question?category=${encodeURIComponent(category)}&difficulty=${encodeURIComponent(selectedDifficulty)}&exclude=${encodeURIComponent(exclude)}`
 );
   const data = await res.json();
 
@@ -46,6 +48,7 @@ const res = await fetch(
   }
 
   currentQuestionId = data.id;
+  usedIds.push(currentQuestionId);
 
   elMeta.textContent = `${data.category} • ${data.difficulty}`;
   elQuestion.textContent = data.question;
@@ -111,6 +114,7 @@ elLoad.addEventListener("click", async () => {
   // reset hry
   score = 0;
   count = 0;
+  usedIds = [];
   elScore.textContent = "0";
   elCount.textContent = "0";
 

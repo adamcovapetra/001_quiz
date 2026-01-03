@@ -32,9 +32,17 @@ from pathlib import Path
 def api_question():
     category = request.args.get("category")
     difficulty = request.args.get("difficulty")
+    exclude = request.args.get("exclude", "")
 
     if not category:
         return jsonify({"error": "Missing category"}), 400
+
+    exclude_ids = set()
+    if exclude.strip():
+        try:
+            exclude_ids = {int(x) for x in exclude.split(",") if x.strip()}
+        except ValueError:
+         return jsonify({"error": "Invalid exclude"}), 400
 
     questions = load_questions()
     candidates = [q for q in questions if q["category"] == category]
@@ -42,8 +50,11 @@ def api_question():
     if difficulty:
         candidates = [q for q in candidates if q["difficulty"] == difficulty]
 
+    if exclude_ids:
+        candidates = [q for q in candidates if q["id"] not in exclude_ids]
+
     if not candidates:
-        return jsonify({"error": "No questions for this category"}), 404
+        return jsonify({"error": "No more questions for this selection"}), 404
 
     q = random.choice(candidates)
 
