@@ -9,6 +9,7 @@ const elChoices = document.getElementById("choices");
 const elError = document.getElementById("error");
 const elScore = document.getElementById("score");
 const elCount = document.getElementById("count");
+const elTotal = document.getElementById("total");
 const elFinish = document.getElementById("finish");
 const elFinalScore = document.getElementById("finalScore");
 const elRestart = document.getElementById("restart");
@@ -86,7 +87,7 @@ async function submitAnswer(index, button) {
   showFinish();
   return;
 }
-  elCount.textContent = String(count);
+  elTotal.textContent = String(totalQuestions);
 
   if (data.correct) {
     score += 1;

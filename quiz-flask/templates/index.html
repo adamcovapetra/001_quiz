@@ -9,14 +9,19 @@
 </head>
 <body>
   <main class="wrap">
-    <h1>Quiz Flask</h1>
+    <div class="header">
+      <div>
+        <h1>Quiz Flask</h1>
+        <p class="subtitle">Vyber kategorii, obtížnost a počet otázek. Hodně štěstí!</p>
+      </div>
+    </div>
 
     <section class="card">
-        <p class="hud">
-            Skóre: <strong id="score">0</strong>
-            <span class="sep">•</span>
-            Otázka: <strong id="count">0</strong>
-        </p>
+     <p class="hud">
+      <span>Skóre: <strong id="score">0</strong></span>
+      <span class="sep">•</span>
+      <span>Otázka: <strong id="count">0</strong>/<strong id="total">0</strong></span>
+     </p>
       <div class="row">
         <label for="category">Kategorie:</label>
         <select id="category">
