@@ -2,661 +2,808 @@
   "questions": [
     {
       "id": 1,
-      "category": "informatika",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "K čemu slouží myš u počítače?",
-      "choices": [
-        "K ovládání kurzoru",
-        "K ukládání dat",
-        "K chlazení počítače",
-        "K připojení k internetu"
-      ],
-      "answerIndex": 0
+      "question": "Z jakého jazyka původně pochází slovo \"ekonomie\"?",
+      "choices": ["Latina", "Řečtina", "Arabština", "Angličtina"],
+      "answerIndex": 1
     },
     {
       "id": 2,
-      "category": "informatika",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "K čemu slouží klávesnice?",
-      "choices": [
-        "K ukládání souborů",
-        "K zadávání textu",
-        "K tisku dokumentů",
-        "K připojení k Wi-Fi"
-      ],
-      "answerIndex": 1
+      "question": "Co v řečtině znamená slovo \"oikonomos\"?",
+      "choices": ["Král", "Obchodník", "Hospodář", "Právník"],
+      "answerIndex": 2
     },
     {
       "id": 3,
-      "category": "hardware",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je monitor?",
-      "choices": [
-        "Paměť",
-        "Výstupní zařízení",
-        "Procesor",
-        "Vstupní zařízení"
-      ],
-      "answerIndex": 1
+      "question": "Který z následujících faktorů nepatří mezi tři základní výrobní faktory?",
+      "choices": ["Práce", "Půda", "Kapitál", "Technologie"],
+      "answerIndex": 3
     },
     {
       "id": 4,
-      "category": "hardware",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je hardware?",
-      "choices": [
-        "Programy v počítači",
-        "Internetové stránky",
-        "Fyzické části počítače",
-        "Operační systém"
-      ],
+      "question": "Jak se nazývá důchod plynoucí z práce?",
+      "choices": ["Renta", "Zisk", "Mzda", "Úrok"],
       "answerIndex": 2
     },
     {
       "id": 5,
-      "category": "software",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je software?",
-      "choices": [
-        "Elektrické obvody",
-        "Fyzické součástky",
-        "Programy a aplikace",
-        "Procesor"
-      ],
-      "answerIndex": 2
-    },
-
-    {
-      "id": 6,
-      "category": "software",
-      "difficulty": "easy",
-      "question": "K čemu slouží operační systém?",
-      "choices": [
-        "K přehrávání hudby",
-        "K řízení chodu počítače",
-        "K tisku dokumentů",
-        "K psaní textu"
-      ],
+      "question": "Jak se nazývá důchod plynoucí z půdy?",
+      "choices": ["Mzda", "Pozemková renta", "Úrok", "Dividenda"],
       "answerIndex": 1
     },
     {
-      "id": 7,
-      "category": "software",
+      "id": 6,
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Který z těchto je operační systém?",
-      "choices": [
-        "Google",
-        "Windows",
-        "YouTube",
-        "Facebook"
-      ],
+      "question": "Která větev ekonomie zkoumá chování dílčích subjektů, jako jsou domácnosti a firmy?",
+      "choices": ["Makroekonomie", "Pozitivní ekonomie", "Mikroekonomie", "Normativní ekonomie"],
+      "answerIndex": 2
+    },
+    {
+      "id": 7,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Která větev ekonomie se zabývá hospodářstvím jako celkem (např. nezaměstnaností)?",
+      "choices": ["Mikroekonomie", "Makroekonomie", "Podniková ekonomika", "Matematická ekonomie"],
       "answerIndex": 1
     },
     {
       "id": 8,
-      "category": "internet",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je internet?",
-      "choices": [
-        "Počítačový program",
-        "Celosvětová síť počítačů",
-        "Operační systém",
-        "Textový editor"
-      ],
+      "question": "Kdo je autorem knihy \"Pojednání o původu a podstatě bohatství národů\" (1776)?",
+      "choices": ["David Ricardo", "Adam Smith", "John Maynard Keynes", "Karl Marx"],
       "answerIndex": 1
     },
     {
       "id": 9,
-      "category": "hardware",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "K čemu slouží tiskárna?",
-      "choices": [
-        "K ukládání dat",
-        "K přehrávání zvuku",
-        "K tisku dokumentů",
-        "K zobrazování obrazu"
-      ],
+      "question": "Jak Smith nazval samoregulující se tržní mechanismus?",
+      "choices": ["Viditelná ruka státu", "Železný zákon mezd", "Neviditelná ruka trhu", "Přirozený řád"],
       "answerIndex": 2
     },
     {
       "id": 10,
-      "category": "informatika",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je soubor?",
-      "choices": [
-        "Počítačový virus",
-        "Uložená data",
-        "Internet",
-        "Klávesová zkratka"
-      ],
+      "question": "Která ekonomie popisuje realitu takovou, jaká je, bez hodnocení?",
+      "choices": ["Normativní", "Pozitivní", "Politická", "Institucionální"],
       "answerIndex": 1
     },
-
     {
       "id": 11,
-      "category": "hardware",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je notebook?",
-      "choices": [
-        "Mobilní telefon",
-        "Přenosný počítač",
-        "Tablet",
-        "Stolní počítač"
-      ],
+      "question": "Které tři základní otázky řeší každá společnost?",
+      "choices": ["Kdy, kde, proč", "Co, jak, pro koho", "Kdo, s kým, za kolik", "Kolik, za co, jak dlouho"],
       "answerIndex": 1
     },
     {
       "id": 12,
-      "category": "internet",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je e-mail?",
-      "choices": [
-        "Elektronická pošta",
-        "Internetový prohlížeč",
-        "Počítačová hra",
-        "Operační systém"
-      ],
-      "answerIndex": 0
+      "question": "Zákon klesající poptávky říká, že s rostoucí cenou poptávané množství zpravidla:",
+      "choices": ["Roste", "Klesá", "Nemění se", "Se zdvojnásobí"],
+      "answerIndex": 1
     },
     {
       "id": 13,
-      "category": "hardware",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Které zařízení slouží k přehrávání zvuku?",
-      "choices": [
-        "Monitor",
-        "Klávesnice",
-        "Reproduktory",
-        "Myš"
-      ],
-      "answerIndex": 2
+      "question": "Jakou směrnici má standardní křivka poptávky?",
+      "choices": ["Pozitivní (rostoucí)", "Negativní (klesající)", "Nulovou (vodorovná)", "Nekonečnou (svislá)"],
+      "answerIndex": 1
     },
     {
       "id": 14,
-      "category": "internet",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je webový prohlížeč?",
-      "choices": [
-        "Textový editor",
-        "Program pro prohlížení webu",
-        "Operační systém",
-        "Počítačová hra"
-      ],
+      "question": "Jak se nazývají statky, které se navzájem doplňují (např. auto a benzín)?",
+      "choices": ["Substituty", "Komplementy", "Méněcenné statky", "Luxusní statky"],
       "answerIndex": 1
     },
     {
       "id": 15,
-      "category": "informatika",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co znamená zkratka PC?",
-      "choices": [
-        "Program Control",
-        "Personal Computer",
-        "Private Connection",
-        "Public Computer"
-      ],
-      "answerIndex": 1
+      "question": "Jak se nazývají statky, které jsou schopny se vzájemně nahradit (např. rohlík a chleba)?",
+      "choices": ["Komplementy", "Volné statky", "Substituty", "Kapitálové statky"],
+      "answerIndex": 2
     },
-
     {
       "id": 16,
-      "category": "bezpecnost",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je heslo?",
-      "choices": [
-        "Způsob zabezpečení účtu",
-        "Název souboru",
-        "Typ programu",
-        "Internetová stránka"
-      ],
-      "answerIndex": 0
+      "question": "Tržní rovnováha nastává v průsečíku křivek:",
+      "choices": ["Nákladů a příjmů", "Nabídky a poptávky", "Úspor a investic", "Exportu a importu"],
+      "answerIndex": 1
     },
     {
       "id": 17,
-      "category": "internet",
+      "category": "ekonomie",
       "difficulty": "easy",
-      "question": "Co je Wi-Fi?",
-      "choices": [
-        "Operační systém",
-        "Druh kabelu",
-        "Bezdrátové připojení k síti",
-        "Antivirový program"
-      ],
-      "answerIndex": 2
-    },
-    {
-      "id": 18,
-      "category": "bezpecnost",
-      "difficulty": "easy",
-      "question": "K čemu slouží antivirový program?",
-      "choices": [
-        "K ochraně proti virům",
-        "K psaní textu",
-        "K tisku",
-        "K přehrávání videí"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "id": 19,
-      "category": "internet",
-      "difficulty": "easy",
-      "question": "Co je URL adresa?",
-      "choices": [
-        "Adresa webové stránky",
-        "Typ souboru",
-        "Počítačový program",
-        "Počítačový virus"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "id": 20,
-      "category": "informatika",
-      "difficulty": "easy",
-      "question": "K čemu slouží vyhledávač?",
-      "choices": [
-        "K ukládání dat",
-        "K tisku",
-        "K hledání informací na internetu",
-        "K psaní textu"
-      ],
-      "answerIndex": 2
-    },
-
-    {
-      "id": 21,
-      "category": "hardware",
-      "difficulty": "medium",
-      "question": "K čemu slouží procesor?",
-      "choices": [
-        "K výpočtům",
-        "K ukládání dat",
-        "K zobrazování obrazu",
-        "K tisku"
-      ],
-      "answerIndex": 0
-    },
-    {
-      "id": 22,
-      "category": "hardware",
-      "difficulty": "medium",
-      "question": "Co je paměť RAM?",
-      "choices": [
-        "Procesor",
-        "Dočasná paměť",
-        "Trvalé úložiště",
-        "Grafická karta"
-      ],
+      "question": "Pokud je nabízené množství větší než poptávané, vzniká na trhu:",
+      "choices": ["Nedostatek zboží", "Přebytek zboží", "Rovnováha", "Inflace"],
       "answerIndex": 1
     },
     {
-      "id": 23,
-      "category": "hardware",
-      "difficulty": "medium",
-      "question": "Co je SSD?",
-      "choices": [
-        "Operační systém",
-        "Typ procesoru",
-        "Datové úložiště",
-        "Grafická karta"
-      ],
+      "id": 18,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Uspokojení potřeby spotřebou statků nazýváme v ekonomii:",
+      "choices": ["Nákladem", "Užitkem", "Poptávkou", "Ziskem"],
+      "answerIndex": 1
+    },
+    {
+      "id": 19,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "První Gossenův zákon se týká:",
+      "choices": ["Rostoucí nabídky", "Klesajícího mezního užitku", "Mezinárodního obchodu", "Státního rozpočtu"],
+      "answerIndex": 1
+    },
+    {
+      "id": 20,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Bod, ve kterém je spotřebitel již nasycen a další jednotka mu nepřináší užitek, se nazývá:",
+      "choices": ["Bod obratu", "Bod nasycení", "Bod ukončení činnosti", "Bod vyrovnání"],
+      "answerIndex": 1
+    },
+    {
+      "id": 21,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se zkratkou označuje Hrubý domácí produkt?",
+      "choices": ["HNP", "ČDP", "GDP", "GNI"],
       "answerIndex": 2
     },
     {
+      "id": 22,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co tvoří \"úzké peníze\" v agregátu M1?",
+      "choices": ["Pouze zlato", "Akcie a dluhopisy", "Oběživo (bankovky a mince) a vklady na běžných účtech", "Termínované vklady na 10 let"],
+      "answerIndex": 2
+    },
+    {
+      "id": 23,
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Která instituce v ČR emituje (vydává) hotové peníze?",
+      "choices": ["Ministerstvo financí", "Česká národní banka", "Úřad vlády", "Komerční banka"],
+      "answerIndex": 1
+    },
+    {
       "id": 24,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Co je phishing?",
-      "choices": [
-        "Typ antiviru",
-        "Způsob podvodu na internetu",
-        "Programovací jazyk",
-        "Druh připojení"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se nazývá výměna zboží za zboží bez použití peněz?",
+      "choices": ["Monetizace", "Barter", "Leasing", "Dumping"],
       "answerIndex": 1
     },
     {
       "id": 25,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co je cloud?",
-      "choices": [
-        "Počasí",
-        "Ukládání dat na internetu",
-        "Program",
-        "Virus"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Nezaměstnanost spojená s hledáním nového zaměstnání se nazývá:",
+      "choices": ["Cyklická", "Frikční", "Strukturální", "Sezónní"],
       "answerIndex": 1
     },
-
     {
       "id": 26,
-      "category": "software",
-      "difficulty": "medium",
-      "question": "Co je aktualizace softwaru?",
-      "choices": [
-        "Odinstalace programu",
-        "Zlepšení nebo oprava programu",
-        "Vypnutí počítače",
-        "Mazání dat"
-      ],
-      "answerIndex": 1
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Proces trvalého růstu cenové hladiny se nazývá:",
+      "choices": ["Deflace", "Stagnace", "Inflace", "Recese"],
+      "answerIndex": 2
     },
     {
       "id": 27,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Co je dvoufázové ověření?",
-      "choices": [
-        "Typ viru",
-        "Zabezpečení pomocí dvou kroků",
-        "Program",
-        "Internetová stránka"
-      ],
-      "answerIndex": 1
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jaká je společná měna většiny zemí Evropské unie?",
+      "choices": ["Dolar", "Libra", "Euro", "Frank"],
+      "answerIndex": 2
     },
     {
       "id": 28,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "K čemu slouží cookies?",
-      "choices": [
-        "K ukládání dat o uživateli",
-        "K ochraně počítače",
-        "K tisku",
-        "K přehrávání hudby"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co znamená zkratka ČNB?",
+      "choices": ["Česká nákupní burza", "Česká národní banka", "Česká námořní bezpečnost", "Český národní blahobyt"],
+      "answerIndex": 1
     },
     {
       "id": 29,
-      "category": "software",
-      "difficulty": "medium",
-      "question": "Co je aplikace?",
-      "choices": [
-        "Součást hardwaru",
-        "Počítačový program",
-        "Internetový kabel",
-        "Soubor"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se nazývá stav, kdy příjmy státního rozpočtu jsou nižší než jeho výdaje?",
+      "choices": ["Přebytek", "Deficit (schodek)", "Rovnováha", "Likvidita"],
       "answerIndex": 1
     },
     {
       "id": 30,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "K čemu slouží databáze?",
-      "choices": [
-        "K ukládání strukturovaných dat",
-        "K přehrávání videí",
-        "K tisku",
-        "K ochraně počítače"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co je hlavním cílem komerční firmy?",
+      "choices": ["Maximalizace nákladů", "Maximalizace zisku", "Minimalizace tržeb", "Zvyšování nezaměstnanosti"],
+      "answerIndex": 1
     },
-
     {
       "id": 31,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "Co je algoritmus?",
-      "choices": [
-        "Program",
-        "Postup řešení problému",
-        "Hardware",
-        "Internetová služba"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Který ekonomický směr věřil, že bohatství země závisí na množství drahých kovů?",
+      "choices": ["Fyziokraté", "Merkantilismus", "Klasická škola", "Marxismus"],
       "answerIndex": 1
     },
     {
       "id": 32,
-      "category": "software",
-      "difficulty": "medium",
-      "question": "Co je open-source software?",
-      "choices": [
-        "Placený software",
-        "Software s otevřeným zdrojovým kódem",
-        "Virus",
-        "Operační systém"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Mezi nepřímé daně patří:",
+      "choices": ["Daň z příjmů fyzických osob", "Daň z přidané hodnoty (DPH)", "Daň z nemovitostí", "Silniční daň"],
       "answerIndex": 1
     },
     {
       "id": 33,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co znamená zkratka HTTP?",
-      "choices": [
-        "HyperText Transfer Protocol",
-        "High Transfer Text Program",
-        "Host Transfer Tool",
-        "Hyper Terminal Tool"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Čistý export (NX) vypočítáme jako:",
+      "choices": ["Import + Export", "Export - Import", "Import / Export", "Pouze objem Exportu"],
+      "answerIndex": 1
     },
     {
       "id": 34,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Co je firewall?",
-      "choices": [
-        "Antivirový program",
-        "Ochrana sítě",
-        "Internetový prohlížeč",
-        "Operační systém"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se nazývá pokles reálného GDP ve dvou po sobě jdoucích čtvrtletích?",
+      "choices": ["Expanze", "Recese", "Vrchol", "Sedlo"],
       "answerIndex": 1
     },
     {
       "id": 35,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "Co je zdrojový kód?",
-      "choices": [
-        "Výsledný program",
-        "Text programu napsaný programátorem",
-        "Hardware",
-        "Databáze"
-      ],
-      "answerIndex": 1
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Který výrobní faktor zahrnuje stroje, budovy a silnice?",
+      "choices": ["Práce", "Půda", "Kapitál", "Informace"],
+      "answerIndex": 2
     },
-
     {
       "id": 36,
-      "category": "software",
-      "difficulty": "medium",
-      "question": "Co je bug?",
-      "choices": [
-        "Nová funkce",
-        "Chyba v programu",
-        "Aktualizace",
-        "Antivirus"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Pojem \"Laissez-faire\" znamená v překladu:",
+      "choices": ["Stát musí vše řídit", "Nechte nás konat", "Peníze jsou vše", "Práce šlechtí"],
       "answerIndex": 1
     },
     {
       "id": 37,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co je sociální síť?",
-      "choices": [
-        "Operační systém",
-        "Web pro komunikaci lidí",
-        "Databáze",
-        "Antivirový program"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Grafické znázornění rozdělení důchodů v populaci se nazývá:",
+      "choices": ["Lafferova křivka", "Lorenzova křivka", "Phillipsova křivka", "Křivka IS"],
       "answerIndex": 1
     },
     {
       "id": 38,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Co je malware?",
-      "choices": [
-        "Škodlivý software",
-        "Typ hardwaru",
-        "Programovací jazyk",
-        "Webová stránka"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se nazývá trh, kde existuje pouze jeden prodávající?",
+      "choices": ["Dokonalá konkurence", "Monopol", "Oligopol", "Monopson"],
+      "answerIndex": 1
     },
     {
       "id": 39,
-      "category": "hardware",
-      "difficulty": "medium",
-      "question": "Co je základní deska?",
-      "choices": [
-        "Paměť",
-        "Hlavní deska spojující komponenty",
-        "Procesor",
-        "Zdroj"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co je to \"amortizace\"?",
+      "choices": ["Úrok z vkladu", "Opotřebení fixního kapitálu (odpisy)", "Typ daně", "Zahraniční investice"],
       "answerIndex": 1
     },
     {
       "id": 40,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "Co je bit?",
-      "choices": [
-        "Základní jednotka informace",
-        "Soubor",
-        "Program",
-        "Hardware"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Nezaměstnanost spojená s poklesem výkonnosti ekonomiky v cyklu je:",
+      "choices": ["Strukturální", "Frikční", "Cyklická", "Technologická"],
+      "answerIndex": 2
     },
-
     {
       "id": 41,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "Co je bajt?",
-      "choices": [
-        "1 bit",
-        "8 bitů",
-        "16 bitů",
-        "64 bitů"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Cena, za kterou se směňují národní měny, se nazývá:",
+      "choices": ["Úroková míra", "Měnový kurz", "Cenová hladina", "Reálná mzda"],
       "answerIndex": 1
     },
     {
       "id": 42,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co je doména?",
-      "choices": [
-        "Adresa webu",
-        "Program",
-        "Databáze",
-        "Operační systém"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Který z autorů je spojen s dílem \"Kapitál\" (1867)?",
+      "choices": ["Adam Smith", "Karl Marx", "John Stuart Mill", "Alfred Marshall"],
+      "answerIndex": 1
     },
     {
       "id": 43,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Proč jsou aktualizace důležité?",
-      "choices": [
-        "Zpomaluji počítač",
-        "Opravují chyby a bezpečnost",
-        "Mažou data",
-        "Vypínají programy"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "V dokonale konkurenčním prostředí je firma:",
+      "choices": ["Cenovým tvůrcem", "Cenovým příjemcem", "Jediným výrobcem", "Státním orgánem"],
       "answerIndex": 1
     },
     {
       "id": 44,
-      "category": "software",
-      "difficulty": "medium",
-      "question": "Co je textový editor?",
-      "choices": [
-        "Program pro psaní textu",
-        "Internetový prohlížeč",
-        "Antivirus",
-        "Hra"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co tvoří příjmovou stránku státního rozpočtu nejvýrazněji?",
+      "choices": ["Dary", "Daně", "Pokuty", "Prodej lesů"],
+      "answerIndex": 1
     },
     {
       "id": 45,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co je online služba?",
-      "choices": [
-        "Program bez internetu",
-        "Služba dostupná přes internet",
-        "Hardware",
-        "Operační systém"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jak se nazývá věda o hospodaření?",
+      "choices": ["Ekologie", "Ekonomie", "Ergonomie", "Etnografie"],
       "answerIndex": 1
     },
-
     {
       "id": 46,
-      "category": "hardware",
-      "difficulty": "medium",
-      "question": "K čemu slouží grafická karta?",
-      "choices": [
-        "K výpočtům",
-        "K ukládání dat",
-        "K zobrazování grafiky",
-        "K připojení k internetu"
-      ],
-      "answerIndex": 2
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Který index měří inflaci pomocí spotřebního koše?",
+      "choices": ["GDP", "CPI", "HHI", "PX"],
+      "answerIndex": 1
     },
     {
       "id": 47,
-      "category": "informatika",
-      "difficulty": "medium",
-      "question": "Co je operační paměť?",
-      "choices": [
-        "RAM",
-        "Disk",
-        "Procesor",
-        "Zdroj"
-      ],
-      "answerIndex": 0
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Slovo \"Capital\" v ekonomii značí:",
+      "choices": ["Hlavní město", "Kapitál", "Velké písmeno", "Trest smrti"],
+      "answerIndex": 1
     },
     {
       "id": 48,
-      "category": "bezpecnost",
-      "difficulty": "medium",
-      "question": "Co znamená silné heslo?",
-      "choices": [
-        "Krátké heslo",
-        "Snadno zapamatovatelné",
-        "Kombinace znaků, čísel a písmen",
-        "Jméno uživatele"
-      ],
-      "answerIndex": 2
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Když centrální banka snižuje množství peněz v oběhu, provádí:",
+      "choices": ["Monetární expanzi", "Monetární restrikci", "Fiskální politiku", "Devalvaci"],
+      "answerIndex": 1
     },
     {
       "id": 49,
-      "category": "internet",
-      "difficulty": "medium",
-      "question": "Co je streaming?",
-      "choices": [
-        "Stahování souborů",
-        "Přehrávání obsahu online",
-        "Ukládání dat",
-        "Tisk"
-      ],
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Co vyjadřuje Phillipsova křivka?",
+      "choices": ["Vztah mezi daněmi a výnosem", "Vztah mezi inflací a nezaměstnaností", "Vztah mezi úsporami a investicemi", "Vztah mezi exportem a dovozem"],
       "answerIndex": 1
     },
     {
       "id": 50,
-      "category": "informatika",
+      "category": "ekonomie",
+      "difficulty": "easy",
+      "question": "Jaká je zkratka pro Evropskou unii?",
+      "choices": ["OSN", "EU", "MMF", "NATO"],
+      "answerIndex": 1
+    },
+
+    {
+      "id": 51,
+      "category": "ekonomie",
       "difficulty": "medium",
-      "question": "Co je digitální stopa?",
+      "question": "Kdo popsal principy fungování hospodářství v knize Muqaddimah ve 14. století?",
+      "choices": ["Aristoteles", "Ibn Khaldūn", "Tomáš Akvinský", "Adam Smith"],
+      "answerIndex": 1
+    },
+    {
+      "id": 52,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Který směr zavedl model ekonomie jako koloběhu důchodů a výstupů a prosazoval jedinou daň z půdy?",
+      "choices": ["Merkantilisté", "Fyziokraté", "Neoklasici", "Keynesovci"],
+      "answerIndex": 1
+    },
+    {
+      "id": 53,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "David Ricardo se v rámci klasické školy zabýval především:",
+      "choices": ["Tvorbou bohatství", "Rozdělováním důchodů", "Státními zásahy", "Psychologií spotřebitele"],
+      "answerIndex": 1
+    },
+    {
+      "id": 54,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Co tvrdí Sayův zákon trhů?",
+      "choices": ["Poptávka si tvoří svou nabídku", "Nabídka si tvoří svou vlastní poptávku", "Stát musí regulovat ceny", "Peníze jsou jen neutrální závoj"],
+      "answerIndex": 1
+    },
+    {
+      "id": 55,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Která škola je spojena s \"marginalistickou revolucí\" (1870-1910)?",
+      "choices": ["Klasická škola", "Neoklasická škola", "Postkeynesovství", "Institucionální ekonomie"],
+      "answerIndex": 1
+    },
+    {
+      "id": 56,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Kdyby změna ceny o 1 % vyvolala změnu poptávaného množství o 2 %, poptávka je:",
+      "choices": ["Neelastická", "Jednotkově elastická", "Elastická", "Dokonale neelastická"],
+      "answerIndex": 2
+    },
+    {
+      "id": 57,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Pokud je koeficient cenové elasticity poptávky ED < 1, pak je poptávka:",
+      "choices": ["Cenově elastická", "Jednotkově elastická", "Cenově neelastická", "Dokonale elastická"],
+      "answerIndex": 2
+    },
+    {
+      "id": 58,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "U statků s negativní důchodovou elasticitou (méněcenné statky) s růstem příjmu poptávka:",
+      "choices": ["Roste", "Klesá", "Nemění se", "Roste progresivně"],
+      "answerIndex": 1
+    },
+    {
+      "id": 59,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Mezní užitek (MU) je definován jako:",
+      "choices": ["Součet všech užitků", "Přírůstek celkového užitku při zvýšení spotřeby o jednu jednotku", "Užitek z první spotřebované jednotky", "Rozdíl mezi cenou a celkovým užitkem"],
+      "answerIndex": 1
+    },
+    {
+      "id": 60,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Druhý Gossenův zákon říká, že spotřebitel maximalizuje užitek, když se rovnají:",
+      "choices": ["Ceny všech statků", "Celkové užitky všech statků", "Poměry mezních užitků k cenám u všech statků", "Mezní náklady a mezní příjmy"],
+      "answerIndex": 2
+    },
+    {
+      "id": 61,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Křivka, která spojuje všechny kombinace dvou statků přinášející stejný užitek, se nazývá:",
+      "choices": ["Rozpočtová přímka", "Indiferenční křivka", "Izokvanta", "Izokosta"],
+      "answerIndex": 1
+    },
+    {
+      "id": 62,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Co vyjadřuje sklon rozpočtové přímky (Budget Line)?",
+      "choices": ["Preference spotřebitele", "Poměr cen obou komodit", "Výši disponibilního důchodu", "Mezní míru substituce"],
+      "answerIndex": 1
+    },
+    {
+      "id": 63,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Veřejná obchodní společnost (v.o.s.) se vyznačuje tím, že:",
+      "choices": ["Společníci ručí jen do výše vkladu", "Společníci ručí celým svým majetkem", "Musí mít základní kapitál 2 mil. Kč", "Má minimálně 50 společníků"],
+      "answerIndex": 1
+    },
+    {
+      "id": 64,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Zákon klesajících výnosů z variabilního vstupu se projevuje v:",
+      "choices": ["Dlouhém období", "Krátkém období", "Pouze v zemědělství", "Pouze u monopolů"],
+      "answerIndex": 1
+    },
+    {
+      "id": 65,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Mezní produkt práce (MPL) je:",
+      "choices": ["Celkový produkt dělený počtem pracovníků", "Přírůstek celkového produktu vyprodukovaný dodatečnou jednotkou práce", "Minimální mzda stanovená státem", "Množství kapitálu na jednoho pracovníka"],
+      "answerIndex": 1
+    },
+    {
+      "id": 66,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "V technologickém optimu firmy v krátkém období platí, že:",
+      "choices": ["Mezní náklady (SMC) protínají minimum průměrných nákladů (SAC)", "Fixní náklady jsou nulové", "Celkové příjmy jsou maximální", "Cena je vyšší než mezní užitek"],
+      "answerIndex": 0
+    },
+    {
+      "id": 67,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Fixní náklady (FC) jsou náklady, které:",
+      "choices": ["Rostou s každou další vyrobenou jednotkou", "Existují i při nulovém objemu produkce", "V dlouhém období neustále rostou", "Jsou spojeny pouze s materiálem"],
+      "answerIndex": 1
+    },
+    {
+      "id": 68,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Pravidlo maximalizace zisku v jakékoli tržní struktuře zní:",
+      "choices": ["P = AC", "MR = MC", "TR = TC", "AR = AC"],
+      "answerIndex": 1
+    },
+    {
+      "id": 69,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Bod ukončení činnosti firmy v dokonalé konkurenci v krátkém období nastává, když cena klesne pod úroveň:",
+      "choices": ["Průměrných celkových nákladů (SAC)", "Průměrných variabilních nákladů (AVC)", "Mezních nákladů (SMC)", "Fixních nákladů (FC)"],
+      "answerIndex": 1
+    },
+    {
+      "id": 70,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Náklady mrtvé váhy (DWL) vznikají v důsledku existence:",
+      "choices": ["Dokonalé konkurence", "Nedokonalé konkurence (např. monopolu)", "Státního rozpočtu", "Zahraničního obchodu"],
+      "answerIndex": 1
+    },
+    {
+      "id": 71,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Herfindahlův index (HHI) slouží k měření:",
+      "choices": ["Inflace", "Nezaměstnanosti", "Tržní moci (míry monopolizace)", "Ekonomického růstu"],
+      "answerIndex": 2
+    },
+    {
+      "id": 72,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Při výpočtu GDP výdajovou metodou sčítáme:",
+      "choices": ["Mzdy, renty, zisky a úroky", "Spotřebu, investice, vládní výdaje a čistý export", "Přidanou hodnotu všech firem", "Pouze příjmy domácností"],
+      "answerIndex": 1
+    },
+    {
+      "id": 73,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Reálný GDP se od nominálního GDP liší tím, že je:",
+      "choices": ["Vyšší o hodnotu amortizace", "Očištěn o vliv změn cenové hladiny (inflaci)", "Vypočítán pouze v amerických dolarech", "Součtem všech důchodů v ekonomice"],
+      "answerIndex": 1
+    },
+    {
+      "id": 74,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Implicitní cenový deflátor je definován jako:",
+      "choices": ["Poměr reálného a nominálního GDP", "Poměr nominálního a reálného GDP krát 100", "Rozdíl mezi exportem a importem", "Průměrná úroková míra v zemi"],
+      "answerIndex": 1
+    },
+    {
+      "id": 75,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Co představuje potenciální produkt (Y*)?",
       "choices": [
-        "Hardwarová součást",
-        "Záznam o aktivitě na internetu",
-        "Program",
-        "Virus"
+        "Maximální produkt, kterého lze dosáhnout při plném a efektivním využití zdrojů",
+        "Skutečný produkt v období recese",
+        "Produkt vyrobený pouze v zemědělství",
+        "Součet všech úspor v ekonomice"
       ],
+      "answerIndex": 0
+    },
+    {
+      "id": 76,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Mezní sklon ke spotřebě (c) udává:",
+      "choices": ["Celkovou spotřebu domácností", "O kolik se změní spotřeba při změně důchodu o jednotku", "Podíl spotřeby na úsporách", "Výši autonomní spotřeby"],
+      "answerIndex": 1
+    },
+    {
+      "id": 77,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Investiční multiplikátor ve dvousektorové ekonomice je roven:",
+      "choices": ["1 / (1 - c)", "1 / (1 + s)", "c / s", "1 - s"],
+      "answerIndex": 0
+    },
+    {
+      "id": 78,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Cambridgeská rovnice peněz má tvar:",
+      "choices": ["M = P * Y", "M = k * P * Y", "P = M / V", "G = T - TR"],
+      "answerIndex": 1
+    },
+    {
+      "id": 79,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Reálná úroková míra (iR) je přibližně:",
+      "choices": ["Nominální úroková míra plus míra inflace", "Nominální úroková míra mínus míra inflace", "Míra inflace dělená nominálním úrokem", "Fixní sazba stanovená bankou"],
+      "answerIndex": 1
+    },
+    {
+      "id": 80,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Povinné minimální rezervy (PMR) jsou nástrojem:",
+      "choices": ["Fiskální politiky", "Monetární politiky", "Důchodové politiky", "Obchodní politiky"],
+      "answerIndex": 1
+    },
+    {
+      "id": 81,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Křivka IS v modelu IS-LM vyjadřuje rovnováhu na:",
+      "choices": ["Trhu peněz", "Trhu zboží a služeb", "Trhu práce", "Devizovém trhu"],
+      "answerIndex": 1
+    },
+    {
+      "id": 82,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Křivka LM vyjadřuje kombinace úrokové míry a produktu, při nichž je v rovnováze:",
+      "choices": ["Státní rozpočet", "Trh peněz", "Trh výrobních faktorů", "Zahraniční obchod"],
+      "answerIndex": 1
+    },
+    {
+      "id": 83,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Apreciace národní měny znamená:",
+      "choices": ["Znehodnocení kurzu", "Zhodnocení (posílení) kurzu", "Administrativní snížení kurzu státem", "Zánik měny"],
+      "answerIndex": 1
+    },
+    {
+      "id": 84,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Giniho koeficient (G) nabývá hodnot:",
+      "choices": ["Od -1 do 1", "Od 0 do 1 (nebo 0 % až 100 %)", "Pouze záporných", "Od 1 do nekonečna"],
+      "answerIndex": 1
+    },
+    {
+      "id": 85,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Okunův zákon popisuje vztah mezi:",
+      "choices": ["Daněmi a výnosem", "Cyklickou nezaměstnaností a produkční mezerou", "Úrokovou mírou a investicemi", "Exportem a měnovým kurzem"],
+      "answerIndex": 1
+    },
+    {
+      "id": 86,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Stagflace je situace charakteristická:",
+      "choices": ["Nízkou inflací a nízkou nezaměstnaností", "Vysokou inflací a vysokou nezaměstnaností (stagnací)", "Vysokým růstem GDP a deflací", "Vyrovnaným státním rozpočtem"],
+      "answerIndex": 1
+    },
+    {
+      "id": 87,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Při \"špinavém\" floatingu (řízeném):",
+      "choices": ["Je kurz pevně fixován na zlato", "Kurz se vyvíjí tržně, ale centrální banka občas intervenuje", "Peníze jsou znečištěny tiskem", "Neexistuje devizový trh"],
+      "answerIndex": 1
+    },
+    {
+      "id": 88,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Lafferova křivka ukazuje, že od určitého bodu další růst daňové sazby vede k:",
+      "choices": ["Růstu daňových výnosů", "Poklesu daňových výnosů", "Poklesu inflace", "Zániku státu"],
+      "answerIndex": 1
+    },
+    {
+      "id": 89,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Mezi konvergenční (Maastrichtská) kritéria pro vstup do eurozóny nepatří:",
+      "choices": ["Kritérium cenové stability (inflace)", "Kritérium vládního deficitu (max. 3 % GDP)", "Kritérium minimální mzdy", "Kritérium stability měnového kurzu"],
+      "answerIndex": 2
+    },
+    {
+      "id": 90,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Hrubý národní důchod (GNI) se od GDP liší tím, že zahrnuje:",
+      "choices": ["Pouze produkci vytvořenou na území státu", "Čisté příjmy z majetku v zahraničí (NPI)", "Pouze vládní nákupy", "Hodnotu volného času"],
+      "answerIndex": 1
+    },
+    {
+      "id": 91,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Individuální nabídka práce má specifický tvar, protože:",
+      "choices": ["Je vždy svislá", "Od určité výše mzdy se zakřivuje zpět (převládne důchodový efekt)", "Lidé chtějí pracovat čím dál víc bez ohledu na mzdu", "Firmy ji nemohou ovlivnit"],
+      "answerIndex": 1
+    },
+    {
+      "id": 92,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "V modelu AD-AS má dlouhodobá agregátní nabídka (LAS) tvar:",
+      "choices": ["Klesající přímky", "Vertikály na úrovni potenciálního produktu", "Horizontály na úrovni cenové hladiny P=100", "Rostoucí paraboly"],
+      "answerIndex": 1
+    },
+    {
+      "id": 93,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Co se stane s křivkou agregátní poptávky (AD), pokud klesnou daně z příjmů?",
+      "choices": ["Posune se doleva dolů", "Posune se doprava nahoru", "Zůstane neměnná", "Změní se v přímku nabídky"],
+      "answerIndex": 1
+    },
+    {
+      "id": 94,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Finanční účet platební bilance zachycuje:",
+      "choices": ["Obchod se zbožím a službami", "Příliv a odliv kapitálu (investice)", "Výplatu starobních důchodů v ČR", "Nákup potravin v supermarketu"],
+      "answerIndex": 1
+    },
+    {
+      "id": 95,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Teorie komparativní výhody vysvětluje:",
+      "choices": ["Proč je monopol špatný", "Výhodnost mezinárodního obchodu i pro méně efektivní země", "Jak funguje burza cenných papírů", "Proč vzniká hyperinflace"],
+      "answerIndex": 1
+    },
+    {
+      "id": 96,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Který cenný papír dává majiteli právo na dividendu?",
+      "choices": ["Dluhopis", "Směnka", "Akcie", "Státní pokladniční poukázka"],
+      "answerIndex": 2
+    },
+    {
+      "id": 97,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Ekonomie strany nabídky (supply-side economics) doporučuje:",
+      "choices": ["Zvyšování vládních výdajů", "Snižování daní pro stimulaci investic", "Zestátnění bank", "Fixaci cen všech výrobků"],
+      "answerIndex": 1
+    },
+    {
+      "id": 98,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Nominální peněžní zásoba dělená cenovou hladinou (M/P) se nazývá:",
+      "choices": ["Nominální úroková míra", "Reálná peněžní nabídka", "Rychlost obratu peněz", "Peněžní iluze"],
+      "answerIndex": 1
+    },
+    {
+      "id": 99,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Dostředivý teorém pavučiny (ED > ES) znamená, že trh:",
+      "choices": ["Je neschopen najít rovnováhu", "Je schopen obnovit rovnováhu po vychýlení", "Vede k neustále rostoucím cenám", "Zanikne v důsledku monopolizace"],
+      "answerIndex": 1
+    },
+    {
+      "id": 100,
+      "category": "ekonomie",
+      "difficulty": "medium",
+      "question": "Bod vyrovnání firmy v dlouhém období nastává v:",
+      "choices": ["Maximu průměrných nákladů", "Minimu dlouhodobých průměrných nákladů (LAC)", "Bodě, kde MR = 0", "Průsečíku poptávky s osou x"],
       "answerIndex": 1
     }
   ]

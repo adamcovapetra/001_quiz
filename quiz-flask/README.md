@@ -28,23 +28,6 @@ Uživatel si na začátku nastaví **kategorii, obtížnost a počet otázek**. 
 
 ---
 
-## 📁 Struktura projektu
-
-quiz-flask/
-├─ app.py # Flask backend (API)
-├─ data/
-│ └─ questions.json # Databáze otázek
-├─ templates/
-│ └─ index.html # HTML šablona
-├─ static/
-│ ├─ css/
-│ │ └─ style.css # Styly
-│ └─ js/
-│ └─ app.js # Frontend logika
-└─ README.md
-
----
-
 ## ⚙️ Jak aplikace funguje
 
 - Frontend (JavaScript) komunikuje s backendem přes REST API (`/api/question`)
