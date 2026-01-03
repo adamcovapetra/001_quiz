@@ -1,25 +1,70 @@
 # Quiz Flask
 
-Jednoduchá kvízová webová aplikace vytvořená ve Flasku.
+Jednoduchá webová kvízová aplikace vytvořená ve **Flasku**.  
+Uživatel si na začátku nastaví **kategorii, obtížnost a počet otázek**. Otázky se během jednoho kola **neopakují** a na konci hry se zobrazí skóre.
 
-## Cíl projektu
+---
+
+## 🎯 Cíl projektu
+
 - výběr kategorie
-- náhodné otázky z JSON
-- odpovědi A/B/C/D
+- výběr obtížnosti (easy / medium)
+- nastavení počtu otázek
+- náhodné otázky z JSON souboru
+- odpovědi ve formátu A / B / C / D
 - počítání skóre
+- automatický konec hry
+- možnost hru restartovat
+- žádné opakování otázek v jednom kole
 
-## Použité technologie
+---
+
+## 🛠 Použité technologie
+
 - Python + Flask
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 
-## Struktura projektu
-- app.py – Flask backend
-- data/questions.json – otázky
-- templates/index.html – HTML šablona
-- static/css/style.css – styly
-- static/js/app.js – logika UI
+---
 
-## Stav
-Projekt ve vývoji
+## 📁 Struktura projektu
 
+quiz-flask/
+├─ app.py # Flask backend (API)
+├─ data/
+│ └─ questions.json # Databáze otázek
+├─ templates/
+│ └─ index.html # HTML šablona
+├─ static/
+│ ├─ css/
+│ │ └─ style.css # Styly
+│ └─ js/
+│ └─ app.js # Frontend logika
+└─ README.md
 
+---
+
+## ⚙️ Jak aplikace funguje
+
+- Frontend (JavaScript) komunikuje s backendem přes REST API (`/api/question`)
+- Backend:
+  - načítá otázky z JSON
+  - filtruje je podle kategorie, obtížnosti a již použitých ID
+  - vrací náhodnou otázku
+- Frontend:
+  - zobrazuje otázky a odpovědi
+  - vyhodnocuje správnost odpovědi
+  - počítá skóre a počet otázek
+  - zobrazuje konec hry a umožňuje restart
+
+---
+
+## 📌 Stav projektu
+
+Projekt je funkční a dále rozšiřitelný.  
+Slouží jako výukový projekt pro:
+- Flask backend
+- práci s JSON daty
+- frontend logiku v JavaScriptu
+- Git a GitHub workflow
