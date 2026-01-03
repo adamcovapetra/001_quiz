@@ -71,9 +71,9 @@ def api_question():
 def api_answer():
     data = request.json
     qid = data.get("id")
-    selected = data.get("answerIndex")
+    selected_text = data.get("selectedText")
 
-    if qid is None or selected is None:
+    if qid is None or selected_text is None:
         return jsonify({"error": "Missing data"}), 400
 
     questions = load_questions()
@@ -82,11 +82,12 @@ def api_answer():
     if not q:
         return jsonify({"error": "Question not found"}), 404
 
-    correct = (selected == q["answerIndex"])
+    correct_text = q["choices"][q["answerIndex"]]
+    correct = (selected_text == correct_text)
 
     return jsonify({
         "correct": correct,
-        "correctIndex": q["answerIndex"]
+        "correctText": correct_text
     })
 
 if __name__ == "__main__":

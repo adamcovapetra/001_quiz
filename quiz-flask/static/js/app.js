@@ -21,6 +21,15 @@ let totalQuestions = 10;
 let selectedDifficulty = "easy";
 let usedIds = [];
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -54,19 +63,21 @@ const res = await fetch(
   elMeta.textContent = `${data.category} • ${data.difficulty}`;
   elQuestion.textContent = data.question;
 
-  elChoices.innerHTML = "";
-  data.choices.forEach((text, idx) => {
-    const btn = document.createElement("button");
-    btn.className = "choice";
-    btn.textContent = `${String.fromCharCode(65 + idx)}) ${text}`;
-    btn.onclick = () => submitAnswer(idx, btn);
-    elChoices.appendChild(btn);
-  });
+elChoices.innerHTML = "";
 
+const shuffledChoices = shuffle(data.choices);
+
+shuffledChoices.forEach((text, idx) => {
+  const btn = document.createElement("button");
+  btn.className = "choice";
+  btn.textContent = `${String.fromCharCode(65 + idx)}) ${text}`;
+  btn.onclick = () => submitAnswer(text, btn); // posíláme TEXT
+  elChoices.appendChild(btn);
+});
   elQuiz.classList.remove("hidden");
 }
 
-async function submitAnswer(index, button) {
+async function submitAnswer(selectedText, button) {
   // zakážeme další klikání
   [...elChoices.children].forEach(b => b.disabled = true);
 
@@ -75,19 +86,11 @@ async function submitAnswer(index, button) {
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       id: currentQuestionId,
-      answerIndex: index
+      selectedText: selectedText
     })
   });
 
   const data = await res.json();
-
-  // počítadlo otázek
-  count += 1;
- if (count >= totalQuestions) {
-  showFinish();
-  return;
-}
-  elTotal.textContent = String(totalQuestions);
 
   if (data.correct) {
     score += 1;
@@ -95,13 +98,27 @@ async function submitAnswer(index, button) {
     button.classList.add("correct");
   } else {
     button.classList.add("wrong");
-    elChoices.children[data.correctIndex].classList.add("correct");
+
+    // najdeme tlačítko, které má správný text a označíme ho zeleně
+    [...elChoices.children].forEach(b => {
+      const txt = b.textContent.split(") ").slice(1).join(") "); // odstraní "A) "
+      if (txt === data.correctText) b.classList.add("correct");
+    });
   }
 
- // pauza – delší při špatné odpovědi
-const pauseMs = data.correct ? 1200 : 3000;
-await sleep(pauseMs);
-await loadQuestion();
+  count += 1;
+  elCount.textContent = String(count);
+
+  const pauseMs = data.correct ? 1200 : 3000;
+  await sleep(pauseMs);
+
+
+  if (count >= totalQuestions) {
+    showFinish();
+    return;
+  }
+
+  await loadQuestion();
 }
 
 elLoad.addEventListener("click", async () => {
