@@ -13,6 +13,8 @@ let currentQuestionId = null;
 let score = 0;
 let count = 0;
 
+const TOTAL_QUESTIONS = 10;
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -65,6 +67,10 @@ async function submitAnswer(index, button) {
 
   // počítadlo otázek
   count += 1;
+  if (count >= TOTAL_QUESTIONS) {
+  alert(`Konec! Skóre: ${score}/${TOTAL_QUESTIONS}`);
+  return;
+}
   elCount.textContent = String(count);
 
   if (data.correct) {
