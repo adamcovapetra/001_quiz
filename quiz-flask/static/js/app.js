@@ -8,6 +8,9 @@ const elError = document.getElementById("error");
 
 const elScore = document.getElementById("score");
 const elCount = document.getElementById("count");
+const elFinish = document.getElementById("finish");
+const elFinalScore = document.getElementById("finalScore");
+const elRestart = document.getElementById("restart");
 
 let currentQuestionId = null;
 let score = 0;
@@ -17,6 +20,12 @@ const TOTAL_QUESTIONS = 10;
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function showFinish() {
+  elFinalScore.textContent = `${score}/${TOTAL_QUESTIONS}`;
+  elQuiz.classList.add("hidden");
+  elFinish.classList.remove("hidden");
 }
 
 async function loadQuestion() {
@@ -67,8 +76,8 @@ async function submitAnswer(index, button) {
 
   // počítadlo otázek
   count += 1;
-  if (count >= TOTAL_QUESTIONS) {
-  alert(`Konec! Skóre: ${score}/${TOTAL_QUESTIONS}`);
+ if (count >= TOTAL_QUESTIONS) {
+  showFinish();
   return;
 }
   elCount.textContent = String(count);
@@ -94,5 +103,25 @@ elLoad.addEventListener("click", async () => {
   count = 0;
   elScore.textContent = "0";
   elCount.textContent = "0";
+
+  // schovat finální obrazovku
+  elFinish.classList.add("hidden");
+
   await loadQuestion();
 });
+
+elRestart.addEventListener("click", async () => {
+  // reset
+  score = 0;
+  count = 0;
+  elScore.textContent = "0";
+  elCount.textContent = "0";
+
+  // UI přepnutí
+  elFinish.classList.add("hidden");
+  elError.textContent = "";
+
+  // start nové hry
+  await loadQuestion();
+});
+
