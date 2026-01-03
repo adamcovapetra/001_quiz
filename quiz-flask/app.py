@@ -31,11 +31,16 @@ from pathlib import Path
 @app.route("/api/question")
 def api_question():
     category = request.args.get("category")
+    difficulty = request.args.get("difficulty")
+
     if not category:
         return jsonify({"error": "Missing category"}), 400
 
     questions = load_questions()
     candidates = [q for q in questions if q["category"] == category]
+
+    if difficulty:
+        candidates = [q for q in candidates if q["difficulty"] == difficulty]
 
     if not candidates:
         return jsonify({"error": "No questions for this category"}), 404

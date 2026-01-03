@@ -1,23 +1,23 @@
 const elCategory = document.getElementById("category");
+const elDifficulty = document.getElementById("difficulty");
+const elLimit = document.getElementById("limit");
 const elLoad = document.getElementById("load");
 const elQuiz = document.getElementById("quiz");
 const elMeta = document.getElementById("meta");
 const elQuestion = document.getElementById("question");
 const elChoices = document.getElementById("choices");
 const elError = document.getElementById("error");
-
 const elScore = document.getElementById("score");
 const elCount = document.getElementById("count");
 const elFinish = document.getElementById("finish");
 const elFinalScore = document.getElementById("finalScore");
 const elRestart = document.getElementById("restart");
-const elLimit = document.getElementById("limit");
 
 let currentQuestionId = null;
 let score = 0;
 let count = 0;
-
 let totalQuestions = 10;
+let selectedDifficulty = "easy";
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -35,7 +35,9 @@ async function loadQuestion() {
 
   const category = elCategory.value;
 
-  const res = await fetch(`/api/question?category=${encodeURIComponent(category)}`);
+const res = await fetch(
+  `/api/question?category=${encodeURIComponent(category)}&difficulty=${encodeURIComponent(selectedDifficulty)}`
+);
   const data = await res.json();
 
   if (!res.ok) {
@@ -99,17 +101,22 @@ await loadQuestion();
 }
 
 elLoad.addEventListener("click", async () => {
-  // restart hry při kliknutí na "Načíst otázku"
+  // uložíme vybranou obtížnost
+  selectedDifficulty = elDifficulty.value;
+
+  // načteme počet otázek
   totalQuestions = Number(elLimit.value);
   if (!Number.isFinite(totalQuestions) || totalQuestions < 1) totalQuestions = 10;
 
+  // reset hry
   score = 0;
   count = 0;
   elScore.textContent = "0";
   elCount.textContent = "0";
 
-  // schovat finální obrazovku
+  // UI reset
   elFinish.classList.add("hidden");
+  elError.textContent = "";
 
   await loadQuestion();
 });
