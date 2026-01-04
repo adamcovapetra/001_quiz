@@ -1,33 +1,56 @@
+/* =========================
+   Globální CSS proměnné
+   ========================= */
 :root{
+  /* Základní barvy pozadí */
   --bg1:#0b1220;
   --bg2:#0f1a33;
+
+  /* Skleněný (glassmorphism) efekt karet */
   --card:rgba(255,255,255,.07);
   --border:rgba(255,255,255,.14);
+
+  /* Textové barvy */
   --text:#eaf0ff;
   --muted:rgba(234,240,255,.78);
+
+  /* Stín karet */
   --shadow: 0 20px 60px rgba(0,0,0,.35);
 }
 
+/* Box model: padding a border se započítávají do velikosti */
 *{ box-sizing:border-box; }
 
+/* =========================
+   Základ stránky
+   ========================= */
 body{
   margin:0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--text);
+
+  /* Vícevrstvé pozadí – jemné světelné gradienty */
   background:
     radial-gradient(1200px 600px at 20% 10%, rgba(96,165,250,.22), transparent 60%),
     radial-gradient(900px 500px at 80% 0%, rgba(167,139,250,.18), transparent 55%),
     radial-gradient(900px 700px at 60% 90%, rgba(34,211,238,.10), transparent 60%),
     linear-gradient(180deg, var(--bg1), var(--bg2));
+
   min-height:100vh;
 }
 
+/* =========================
+   Hlavní obal aplikace
+   ========================= */
 .wrap{
   max-width: 880px;
   margin: 0 auto;
   padding: 44px 18px;
 }
 
+/* =========================
+   Hlavička aplikace
+   ========================= */
 .header{
   display:flex;
   align-items:flex-end;
@@ -48,6 +71,9 @@ h1{
   font-size: 14px;
 }
 
+/* =========================
+   Karta (glass efekt)
+   ========================= */
 .card{
   background: var(--card);
   border:1px solid var(--border);
@@ -57,6 +83,9 @@ h1{
   backdrop-filter: blur(10px);
 }
 
+/* =========================
+   Horní informační lišta (HUD)
+   ========================= */
 .hud{
   display:flex;
   flex-wrap:wrap;
@@ -68,8 +97,12 @@ h1{
   font-size: 14px;
 }
 
+/* Zvýraznění důležitých hodnot */
 .hud strong{ color: var(--text); }
 
+/* =========================
+   Řádky s ovládacími prvky
+   ========================= */
 .row{
   display:flex;
   flex-wrap:wrap;
@@ -83,6 +116,9 @@ label{
   font-size: 13px;
 }
 
+/* =========================
+   Formulářové prvky
+   ========================= */
 select, input, button{
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,.18);
@@ -95,6 +131,9 @@ select, input, button{
 
 input{ width: 110px; }
 
+/* =========================
+   Tlačítka
+   ========================= */
 button{
   cursor:pointer;
   transition: transform .05s ease, background .15s ease, border-color .15s ease;
@@ -107,23 +146,31 @@ button:hover{
 
 button:active{ transform: translateY(1px); }
 
+/* =========================
+   Kvízová část
+   ========================= */
 .quiz{
   margin-top: 10px;
   animation: fadeIn .2s ease-out;
 }
 
+/* Kategorie + obtížnost */
 .meta{
   margin: 0 0 8px;
   color: var(--muted);
   font-size: 13px;
 }
 
+/* Text otázky */
 .question{
   margin: 0 0 14px;
   font-size: 20px;
   line-height: 1.25;
 }
 
+/* =========================
+   Odpovědi (A / B / C / D)
+   ========================= */
 .choices{
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -139,23 +186,30 @@ button:active{ transform: translateY(1px); }
   min-height: 52px;
 }
 
+/* Po kliknutí odpovědi nezšednou */
 .choice:disabled{
   opacity: 1; /* ať barvy zůstanou výrazné */
   cursor: default;
 }
 
+/* Správná odpověď */
 .choice.correct{
   background: rgba(34,197,94,.22);
   border-color: rgba(34,197,94,.55);
 }
 
+/* Špatná odpověď */
 .choice.wrong{
   background: rgba(239,68,68,.22);
   border-color: rgba(239,68,68,.55);
 }
 
+/* =========================
+   Pomocné třídy
+   ========================= */
 .hidden{ display:none; }
 
+/* Chybová hláška */
 .error{
   color: rgba(248,113,113,1);
   margin: 8px 0 0;
@@ -163,6 +217,9 @@ button:active{ transform: translateY(1px); }
   font-size: 13px;
 }
 
+/* =========================
+   Konec hry
+   ========================= */
 #finish{
   margin-top: 16px;
   padding-top: 14px;
@@ -180,17 +237,26 @@ button:active{ transform: translateY(1px); }
   color: var(--muted);
 }
 
+/* =========================
+   Animace
+   ========================= */
 @keyframes fadeIn{
   from{ opacity:0; transform: translateY(4px); }
   to{ opacity:1; transform: translateY(0); }
 }
 
+/* =========================
+   Responzivita (mobil)
+   ========================= */
 @media (max-width: 640px){
   .choices{ grid-template-columns: 1fr; }
   .hud{ justify-content:flex-start; }
 }
 
-/* Fix čitelnosti položek v dropdownu (Windows/Chrome) */
+/* =========================
+   Fix čitelnosti dropdownů
+   (Windows / Chrome bug)
+   ========================= */
 select {
   background-color: rgba(255,255,255,.10);
   color: var(--text);
@@ -201,7 +267,7 @@ select option {
   color: #eaf0ff;           /* světlý text */
 }
 
-/* zvýraznění vybrané/hover položky */
+/* zvýraznění vybrané / hover položky */
 select option:checked,
 select option:hover {
   background-color: #1b2a52;
