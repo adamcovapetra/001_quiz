@@ -35,7 +35,15 @@ function sleep(ms) {
 }
 
 function showFinish() {
-  elFinalScore.textContent = `${score}/${totalQuestions}`;
+  const percent = Math.round((score / totalQuestions) * 100);
+
+  const emoji =
+  percent === 100 ? "🔥" :
+  percent >= 75 ? "😄" :
+  percent >= 50 ? "🙂" :
+  "😕";
+
+  elFinalScore.textContent = `${score}/${totalQuestions} = ${percent} % správných odpovědí ${emoji}`;
   elQuiz.classList.add("hidden");
   elFinish.classList.remove("hidden");
 }
@@ -95,6 +103,7 @@ async function submitAnswer(selectedText, button) {
   if (data.correct) {
     score += 1;
     elScore.textContent = String(score);
+    elTotal.textContent = String(totalQuestions);
     button.classList.add("correct");
   } else {
     button.classList.add("wrong");
@@ -135,6 +144,7 @@ elLoad.addEventListener("click", async () => {
   usedIds = [];
   elScore.textContent = "0";
   elCount.textContent = "0";
+  elTotal.textContent = String(totalQuestions);
 
   // UI reset
   elFinish.classList.add("hidden");
