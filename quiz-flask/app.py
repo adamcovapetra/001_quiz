@@ -1,18 +1,7 @@
-# Flask backend pro kvízovou aplikaci
-# ----------------------------------
-# Tento soubor řeší:
-# 1) vykreslení hlavní stránky (/) s předanými kategoriemi do šablony
-# 2) API endpointy, které volá frontend (app.js):
-#    - /api/categories (seznam kategorií)
-#    - /api/question (vrácení 1 náhodné otázky podle filtrů)
-#    - /api/answer (vyhodnocení odpovědi)
-#
-# Důležité: Skóre a průběh hry se drží na frontendu (JS).
-# Backend je zde "zdroj pravdy" pro otázky a správnou odpověď.
-
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 import json
 from pathlib import Path
+import random
 
 app = Flask(__name__)
 
@@ -55,15 +44,6 @@ def api_categories():
     questions = load_questions()
     categories = sorted({q["category"] for q in questions})
     return jsonify(categories)
-
-# POZOR:
-# Tady máš znovu importy Flasku + json + Path a nově random.
-# Funkčně to běží, ale je to duplicita, která vznikla během vývoje (kopírováním kroků).
-# Necháváme beze změny, protože jsi chtěl jen komentáře.
-from flask import Flask, render_template, jsonify, request
-import json
-import random
-from pathlib import Path
 
 @app.route("/api/question")
 def api_question():
@@ -109,7 +89,7 @@ def api_question():
     if exclude_ids:
         candidates = [q for q in candidates if q["id"] not in exclude_ids]
 
-    # Pokud už nejsou žádné kandidátní otázky, hra nemůže pokračovat.
+    # Pokud už nejsou žádné další otázky, hra nemůže pokračovat.
     # To se může stát třeba když:
     # - uživatel zvolí malou kategorii/obtížnost
     # - a chce víc otázek, než je v JSONu dostupných

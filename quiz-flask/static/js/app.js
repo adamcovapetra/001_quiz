@@ -41,8 +41,7 @@ let usedIds = [];
 // ================================
 // Pomocná funkce: shuffle (zamíchání pořadí odpovědí)
 // -------------------------------
-// Přidali jsme ji kvůli problému, který sis všiml:
-// uživatel si mohl zapamatovat písmeno (A/B/C/D), ne správnou odpověď.
+// Přidali jsme, abychom předešli tomu, aby si uživatel zapamatoval písmeno (A/B/C/D) se správnou odpovědí.
 // Proto teď zamícháme data.choices před zobrazením.
 // ================================
 function shuffle(arr) {
